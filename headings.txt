@@ -1,0 +1,32 @@
+About
+My craft lives where design meets code, merging elegant visuals with solid engineering to deliver web experiences that feel effortless, engaging, and alive on every device.
+Services
+Web Design
+Front-end Development
+CMS Integrations
+SEO &amp; Performance
+Projects
+Pestorix
+Danzora
+Didasko
+Harmonix
+Awards
+Awwwards
+CSS Design Awards
+Webby Awards
+FWA
+Euro Design Awards
+Made with Framer
+Testimonials
+FAQ
+What does your standard website design package include?
+Do you handle both frontend and backend work?
+How long does a website project usually take?
+Can you improve my site’s SEO and performance?
+Do you offer maintenance after my website launches?
+Articles
+Designing for Motion: How Micro-Animations Shape User Experience
+Static Site Generators vs. Traditional CMS: Choosing the Right Approach for Your Portfolio
+Accessibility First: Practical Steps to Build Inclusive Websites in 2025
+From Figma to Framer: Streamlining Your Prototyping Pipeline
+Let’s build your next big thing

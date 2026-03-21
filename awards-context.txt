@@ -1,0 +1,24 @@
+xDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
+                              2024
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+</a>
+                      {/* /$ */}
+                    </div>
+                  </div>
+                  {/* /$ */}
+                </div>
+                {/* /$ */}
+              </div>
+            </div>
+          </section>
+          <section className="framer-fs61rl" data-framer-name="awards">
+            <div className="framer-1dzr2s8" data-framer-name="content">
+              <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l">
+                <div className="framer-7rla-container">
+                  <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-pr

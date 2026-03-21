@@ -1,0 +1,13 @@
+
+> portfolio@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(1004,12): error TS17008: JSX element 'section' has no corresponding closing tag.
+src/App.tsx(1359,15): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/App.tsx(5609,9): error TS17015: Expected corresponding closing tag for JSX fragment.
+src/App.tsx(5613,5): error TS1128: Declaration or statement expected.
+src/App.tsx(5617,5): error TS2657: JSX expressions must have one parent element.
+src/App.tsx(5861,5): error TS1128: Declaration or statement expected.
+src/App.tsx(5861,7): error TS1109: Expression expected.
+src/App.tsx(5862,3): error TS1109: Expression expected.
+

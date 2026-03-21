@@ -1,0 +1,31 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './index.css'
+import App from './App.tsx'
+import Contact from './Contact.tsx'
+import Articles from './Articles.tsx'
+import Privacy from './Privacy.tsx'
+import Terms from './Terms.tsx'
+import ArticleOverdoneVideographyTrends from './ArticleOverdoneVideographyTrends.tsx'
+import ArticleGettingIntoVideography from './ArticleGettingIntoVideography.tsx'
+import ArticleSurvivingAsAVideographer from './ArticleSurvivingAsAVideographer.tsx'
+import ArticleShootMockumentaryVideos from './ArticleShootMockumentaryVideos.tsx'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/articles" element={<Articles />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/articles/overdone-videography-trends-you-should-ditch-in-2026" element={<ArticleOverdoneVideographyTrends />} />
+        <Route path="/articles/getting-into-videography-in-2026-what-you-really-need" element={<ArticleGettingIntoVideography />} />
+        <Route path="/articles/surviving-as-a-videographer-in-2026-crowded-market" element={<ArticleSurvivingAsAVideographer />} />
+        <Route path="/articles/how-to-shoot-modern-mockumentary-style-videos" element={<ArticleShootMockumentaryVideos />} />
+      </Routes>
+    </BrowserRouter>
+  </StrictMode>,
+)

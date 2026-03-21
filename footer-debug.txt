@@ -1,0 +1,16 @@
+4550: "                          {/* $ */}\r"
+4551: "                          <Link className=\"framer-text framer-styles-preset-1c6ncnn\" data-styles-preset=\"vvwkuHhz5\" to=\"/privacy\"privacyPrivacy"
+4552: "</Link>\r"
+4553: "                          {/* /$ */}\r"
+4554: "                        </p>\r"
+4555: "                      </div>\r"
+4556: "                      <div className=\"framer-y072jz\" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--t
+4557: "                        <p className=\"framer-text framer-styles-preset-h71jo3\" data-styles-preset=\"yWt0Fhoeu\" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0
+4558: "                          {/* $ */}\r"
+4559: "                          <Link className=\"framer-text framer-styles-preset-1c6ncnn\" data-styles-preset=\"vvwkuHhz5\" to=\"/terms\">                          Terms"
+4560: "</Link>\r"
+4561: "                          {/* /$ */}\r"
+4562: "                        </p>\r"
+4563: "                      </div>\r"
+4564: "                    </nav>\r"
+4565: "                  </div>\r"
