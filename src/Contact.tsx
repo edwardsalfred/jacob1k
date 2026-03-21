@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Particles from './Particles';
 
 export default function Contact() {
   const navigate = useNavigate();
@@ -29,33 +30,16 @@ export default function Contact() {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: '60px 20px',
+      padding: '80px 20px',
       position: 'relative',
       overflow: 'hidden',
     }}>
 
-      {/* Animated background blobs (same as home) */}
-      <div className="bg-blob bg-blob-1" />
-      <div className="bg-blob bg-blob-2" />
-      <div className="bg-blob bg-blob-3" />
-      <div className="bg-blob bg-blob-4" />
-
-      {/* Scattered dot particles */}
-      {[
-        { top: '12%', left: '5%' }, { top: '28%', left: '92%' }, { top: '45%', left: '8%' },
-        { top: '60%', left: '88%' }, { top: '75%', left: '15%' }, { top: '18%', left: '78%' },
-        { top: '85%', left: '70%' }, { top: '35%', left: '3%' }, { top: '55%', left: '96%' },
-        { top: '70%', left: '40%' }, { top: '90%', left: '20%' }, { top: '8%', left: '55%' },
-      ].map((pos, i) => (
-        <div key={i} style={{
-          position: 'fixed',
-          top: pos.top, left: pos.left,
-          width: '3px', height: '3px',
-          borderRadius: '50%',
-          background: 'rgba(255,255,255,0.35)',
-          pointerEvents: 'none',
-        }} />
-      ))}
+      {/* Dominicus-style background: canvas starfield + blue glow vignettes */}
+      <Particles />
+      <div className="bg-glow-top" />
+      <div className="bg-glow-bottom" />
+      <div className="bg-noise" />
 
       {/* Back arrow */}
       <button
