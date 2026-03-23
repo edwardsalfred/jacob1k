@@ -4057,7 +4057,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                What does your standard website design package include?
+                                How much do you charge?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4070,7 +4070,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I handle discovery, wireframes, custom visuals, responsive front-end build, animations, accessibility checks, CMS setup, and final deployment to whichever host you choose.
+                                Pricing varies depending on the scope of your project, factors like shoot length, location, and deliverables all play a role. Reach out for a custom quote and I'll get back to you within 24 hours.
                               </p>
                             </div>
                           </div>
@@ -4088,7 +4088,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Do you handle both frontend and backend work?
+                                Do you travel?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4101,7 +4101,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                Yes, I craft React interfaces, manage state, build RESTful APIs, design databases, add authentication, and integrate everything into one robust, cohesive full-stack workflow.
+                                Absolutely! I'm available for travel both locally and out of state. Travel fees apply for locations outside of Hattiesburg, MS and will be included in your project quote upfront. No surprises.
                               </p>
                             </div>
                           </div>
@@ -4119,7 +4119,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                How long does a website project usually take?
+                                How can I book?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4132,7 +4132,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                A typical site takes four to six weeks, discovery, design, development, revisions, testing, and launch, assuming all feedback arrives promptly at each scheduled milestone.
+                                Booking is easy! You can submit a booking request directly on my website, email me at Jacob@jacob1k.com, or send me a DM on Instagram, TikTok, or Facebook. I recommend reaching out at least 1 week in advance to lock in your date.
                               </p>
                             </div>
                           </div>
@@ -4150,7 +4150,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Can you improve my site’s SEO and performance?
+                                How long does it take to receive the final video?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4163,7 +4163,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                Absolutely! I use semantic HTML, structured data, optimized images, lazy loading, caching, and Lighthouse audits to boost SEO rankings and page speed.
+                                Turnaround time is typically 1–2 weeks from your shoot date. Rush delivery may be available depending on my current schedule. Just ask!
                               </p>
                             </div>
                           </div>
@@ -4181,7 +4181,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Do you offer maintenance after my website launches?
+                                Do you require a deposit?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4194,18 +4194,44 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I offer care plans with backups, security updates, uptime monitoring, content tweaks, performance tuning, and priority support to keep your site healthy.
+                                Yes, a deposit is required to officially secure your booking. This ensures your date is held exclusively for you. The remaining balance is due on the shoot day.
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    
                     <div className="framer-hemy92-container">
-                      {/* $ */}
-                      <div>
+                      <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
+                        <div className="framer-8i65d2" data-framer-name="wrapper">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                              006.
+                            </p>
+                          </div>
+                          <div className="framer-g1ccu5" data-framer-name="wrapper">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                              <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
+                                What are your payment methods?
+                              </h3>
+                            </div>
+                            <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
+                              <use href="#465907804">
+                              </use>
+                            </svg>
+                          </div>
+                        </div>
+                        <div className="framer-1cd45jo" data-framer-name="wrapper">
+                          <div className="framer-19zvow4" data-framer-name="wrapper">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                              <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
+                                I accept Cash App, Apple Pay, and cash. Payment details will be shared once your booking is confirmed.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      {/* /$ */}
                     </div>
                   </div>
                 </div>
@@ -4224,7 +4250,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                What does your standard website design package include?
+                                How much do you charge?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4237,7 +4263,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I handle discovery, wireframes, custom visuals, responsive front-end build, animations, accessibility checks, CMS setup, and final deployment to whichever host you choose.
+                                Pricing varies depending on the scope of your project, factors like shoot length, location, and deliverables all play a role. Reach out for a custom quote and I'll get back to you within 24 hours.
                               </p>
                             </div>
                           </div>
@@ -4255,7 +4281,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Do you handle both frontend and backend work?
+                                Do you travel?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4268,7 +4294,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                Yes, I craft React interfaces, manage state, build RESTful APIs, design databases, add authentication, and integrate everything into one robust, cohesive full-stack workflow.
+                                Absolutely! I'm available for travel both locally and out of state. Travel fees apply for locations outside of Hattiesburg, MS and will be included in your project quote upfront. No surprises.
                               </p>
                             </div>
                           </div>
@@ -4286,7 +4312,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                How long does a website project usually take?
+                                How can I book?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4299,7 +4325,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                A typical site takes four to six weeks, discovery, design, development, revisions, testing, and launch, assuming all feedback arrives promptly at each scheduled milestone.
+                                Booking is easy! You can submit a booking request directly on my website, email me at Jacob@jacob1k.com, or send me a DM on Instagram, TikTok, or Facebook. I recommend reaching out at least 1 week in advance to lock in your date.
                               </p>
                             </div>
                           </div>
@@ -4317,7 +4343,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Can you improve my site’s SEO and performance?
+                                How long does it take to receive the final video?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4330,7 +4356,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                Absolutely! I use semantic HTML, structured data, optimized images, lazy loading, caching, and Lighthouse audits to boost SEO rankings and page speed.
+                                Turnaround time is typically 1–2 weeks from your shoot date. Rush delivery may be available depending on my current schedule. Just ask!
                               </p>
                             </div>
                           </div>
@@ -4348,7 +4374,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Do you offer maintenance after my website launches?
+                                Do you require a deposit?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4361,18 +4387,44 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I offer care plans with backups, security updates, uptime monitoring, content tweaks, performance tuning, and priority support to keep your site healthy.
+                                Yes, a deposit is required to officially secure your booking. This ensures your date is held exclusively for you. The remaining balance is due on the shoot day.
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    
                     <div className="framer-hemy92-container">
-                      {/* $ */}
-                      <div>
+                      <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
+                        <div className="framer-8i65d2" data-framer-name="wrapper">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                              006.
+                            </p>
+                          </div>
+                          <div className="framer-g1ccu5" data-framer-name="wrapper">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                              <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
+                                What are your payment methods?
+                              </h3>
+                            </div>
+                            <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
+                              <use href="#465907804">
+                              </use>
+                            </svg>
+                          </div>
+                        </div>
+                        <div className="framer-1cd45jo" data-framer-name="wrapper">
+                          <div className="framer-19zvow4" data-framer-name="wrapper">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                              <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
+                                I accept Cash App, Apple Pay, and cash. Payment details will be shared once your booking is confirmed.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      {/* /$ */}
                     </div>
                   </div>
                 </div>
@@ -4391,7 +4443,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                What does your standard website design package include?
+                                How much do you charge?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4404,7 +4456,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I handle discovery, wireframes, custom visuals, responsive front-end build, animations, accessibility checks, CMS setup, and final deployment to whichever host you choose.
+                                Pricing varies depending on the scope of your project, factors like shoot length, location, and deliverables all play a role. Reach out for a custom quote and I'll get back to you within 24 hours.
                               </p>
                             </div>
                           </div>
@@ -4422,7 +4474,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Do you handle both frontend and backend work?
+                                Do you travel?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4435,7 +4487,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                Yes, I craft React interfaces, manage state, build RESTful APIs, design databases, add authentication, and integrate everything into one robust, cohesive full-stack workflow.
+                                Absolutely! I'm available for travel both locally and out of state. Travel fees apply for locations outside of Hattiesburg, MS and will be included in your project quote upfront. No surprises.
                               </p>
                             </div>
                           </div>
@@ -4453,7 +4505,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                How long does a website project usually take?
+                                How can I book?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4466,7 +4518,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                A typical site takes four to six weeks, discovery, design, development, revisions, testing, and launch, assuming all feedback arrives promptly at each scheduled milestone.
+                                Booking is easy! You can submit a booking request directly on my website, email me at Jacob@jacob1k.com, or send me a DM on Instagram, TikTok, or Facebook. I recommend reaching out at least 1 week in advance to lock in your date.
                               </p>
                             </div>
                           </div>
@@ -4484,7 +4536,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Can you improve my site’s SEO and performance?
+                                How long does it take to receive the final video?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4497,7 +4549,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                Absolutely! I use semantic HTML, structured data, optimized images, lazy loading, caching, and Lighthouse audits to boost SEO rankings and page speed.
+                                Turnaround time is typically 1–2 weeks from your shoot date. Rush delivery may be available depending on my current schedule. Just ask!
                               </p>
                             </div>
                           </div>
@@ -4515,7 +4567,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                Do you offer maintenance after my website launches?
+                                Do you require a deposit?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4528,18 +4580,44 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I offer care plans with backups, security updates, uptime monitoring, content tweaks, performance tuning, and priority support to keep your site healthy.
+                                Yes, a deposit is required to officially secure your booking. This ensures your date is held exclusively for you. The remaining balance is due on the shoot day.
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    
                     <div className="framer-hemy92-container">
-                      {/* $ */}
-                      <div>
+                      <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
+                        <div className="framer-8i65d2" data-framer-name="wrapper">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                              006.
+                            </p>
+                          </div>
+                          <div className="framer-g1ccu5" data-framer-name="wrapper">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                              <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
+                                What are your payment methods?
+                              </h3>
+                            </div>
+                            <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
+                              <use href="#465907804">
+                              </use>
+                            </svg>
+                          </div>
+                        </div>
+                        <div className="framer-1cd45jo" data-framer-name="wrapper">
+                          <div className="framer-19zvow4" data-framer-name="wrapper">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                              <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
+                                I accept Cash App, Apple Pay, and cash. Payment details will be shared once your booking is confirmed.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      {/* /$ */}
                     </div>
                   </div>
                 </div>
