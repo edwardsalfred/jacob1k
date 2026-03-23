@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import Particles from './Particles.tsx';
 
 export default function Terms() {
   const navigate = useNavigate();
@@ -27,7 +28,7 @@ export default function Terms() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'rgb(0,0,0)',
+      background: '#000',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -36,12 +37,10 @@ export default function Terms() {
       overflow: 'hidden',
     }}>
 
-      {/* Background blobs */}
-      <div className="bg-blob bg-blob-1" />
-      <div className="bg-blob bg-blob-2" />
-      <div className="bg-blob bg-blob-3" />
-      <div className="bg-blob bg-blob-4" />
+      <div className="bg-glow-top" />
+      <div className="bg-glow-bottom" />
       <div className="bg-noise" />
+      <Particles />
 
       {/* Back arrow */}
       <button

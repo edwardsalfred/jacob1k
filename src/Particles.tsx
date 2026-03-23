@@ -23,7 +23,7 @@ export default function Particles() {
 
     const resize = () => {
       canvas.width = window.innerWidth;
-      canvas.height = document.body.scrollHeight || window.innerHeight;
+      canvas.height = window.innerHeight;
       generateStars();
     };
 

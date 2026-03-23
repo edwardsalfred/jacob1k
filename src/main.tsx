@@ -11,6 +11,7 @@ import ArticleOverdoneVideographyTrends from './ArticleOverdoneVideographyTrends
 import ArticleGettingIntoVideography from './ArticleGettingIntoVideography.tsx'
 import ArticleSurvivingAsAVideographer from './ArticleSurvivingAsAVideographer.tsx'
 import ArticleShootMockumentaryVideos from './ArticleShootMockumentaryVideos.tsx'
+import ArticleDesigningForMotion from './ArticleDesigningForMotion.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/articles/getting-into-videography-in-2026-what-you-really-need" element={<ArticleGettingIntoVideography />} />
         <Route path="/articles/surviving-as-a-videographer-in-2026-crowded-market" element={<ArticleSurvivingAsAVideographer />} />
         <Route path="/articles/how-to-shoot-modern-mockumentary-style-videos" element={<ArticleShootMockumentaryVideos />} />
+        <Route path="/articles/designing-for-motion-how-micro-animations-shape-user-experience" element={<ArticleDesigningForMotion />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

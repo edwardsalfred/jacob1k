@@ -25,7 +25,7 @@ export default function Contact() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'rgb(0,0,0)',
+      background: '#000',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',

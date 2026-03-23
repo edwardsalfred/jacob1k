@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Header, Footer } from './SharedLayout.tsx';
+import Particles from './Particles.tsx';
 
 export default function ArticleDesigningForMotion() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -30,167 +31,19 @@ export default function ArticleDesigningForMotion() {
     <div
       style={{
         minHeight: '100vh',
-        background: 'rgb(0,0,0)',
+        background: '#000',
         color: 'white',
         fontFamily: '"Satoshi", "Inter", sans-serif',
         position: 'relative',
         overflowX: 'hidden',
       }}
     >
-      {/* Background blobs */}
-      <div className="bg-blob bg-blob-1" />
-      <div className="bg-blob bg-blob-2" />
-      <div className="bg-blob bg-blob-3" />
-      <div className="bg-blob bg-blob-4" />
+      <div className="bg-glow-top" />
+      <div className="bg-glow-bottom" />
       <div className="bg-noise" />
+      <Particles />
 
-      {/* ── NAV ── */}
-      <header
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 100,
-          background: scrolled
-            ? 'rgba(0,0,0,0.85)'
-            : 'linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 60%, transparent 100%)',
-          backdropFilter: scrolled ? 'blur(16px)' : 'none',
-          WebkitBackdropFilter: scrolled ? 'blur(16px)' : 'none',
-          padding: '22px 40px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          transition: 'background 0.3s, backdrop-filter 0.3s',
-        }}
-      >
-        <Link
-          to="/"
-          style={{
-            fontFamily: '"Instrument Serif", Georgia, serif',
-            fontSize: '18px',
-            color: 'white',
-            textDecoration: 'none',
-            fontWeight: 400,
-          }}
-        >
-          Jacob
-        </Link>
-
-        {/* Desktop nav links */}
-        <nav
-          style={{
-            display: 'flex',
-            gap: '32px',
-            alignItems: 'center',
-          }}
-          className="article-detail-nav-desktop"
-        >
-          {[
-            { label: 'Home', to: '/' },
-            { label: 'Articles', to: '/articles' },
-            { label: 'Get in touch', to: '/contact' },
-          ].map((item) => (
-            <Link
-              key={item.label}
-              to={item.to}
-              style={{
-                color: item.label === 'Articles' ? 'white' : 'rgba(153,153,153,1)',
-                textDecoration: 'none',
-                fontSize: '14px',
-                letterSpacing: '0.01em',
-                transition: 'color 0.2s',
-              }}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </nav>
-
-        {/* Mobile hamburger */}
-        <button
-          onClick={() => setMenuOpen((o) => !o)}
-          style={{
-            display: 'none',
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            padding: '4px',
-            flexDirection: 'column',
-            gap: '5px',
-          }}
-          className="article-detail-nav-mobile-btn"
-          aria-label="Menu"
-        >
-          {[0, 1, 2].map((i) => (
-            <span
-              key={i}
-              style={{
-                display: 'block',
-                width: '22px',
-                height: '1.5px',
-                background: 'rgb(153,153,153)',
-                borderRadius: '2px',
-                transition: 'transform 0.2s',
-              }}
-            />
-          ))}
-        </button>
-      </header>
-
-      {/* Mobile menu overlay */}
-      {menuOpen && (
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            zIndex: 99,
-            background: 'rgb(17,17,17)',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'flex-start',
-            padding: '60px 40px',
-            gap: '32px',
-          }}
-        >
-          <button
-            onClick={() => setMenuOpen(false)}
-            style={{
-              position: 'absolute',
-              top: '24px',
-              right: '32px',
-              background: 'none',
-              border: 'none',
-              color: 'white',
-              fontSize: '24px',
-              cursor: 'pointer',
-            }}
-          >
-            ✕
-          </button>
-          {[
-            { label: 'Home', to: '/' },
-            { label: 'Articles', to: '/articles' },
-            { label: 'Get in touch', to: '/contact' },
-          ].map((item) => (
-            <Link
-              key={item.label}
-              to={item.to}
-              onClick={() => setMenuOpen(false)}
-              style={{
-                color: 'white',
-                textDecoration: 'none',
-                fontSize: '32px',
-                fontFamily: '"Instrument Serif", Georgia, serif',
-                fontWeight: 400,
-              }}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
-      )}
+      <Header />
 
       {/* ── ARTICLE CONTENT ── */}
       <main
@@ -459,64 +312,7 @@ export default function ArticleDesigningForMotion() {
         </div>
       </main>
 
-      {/* ── FOOTER ── */}
-      <footer
-        style={{
-          borderTop: '1px solid rgba(153,153,153,0.12)',
-          background: 'rgb(17,17,17)',
-          padding: '48px 40px',
-          position: 'relative',
-          zIndex: 1,
-        }}
-      >
-        <div
-          style={{
-            maxWidth: '1100px',
-            margin: '0 auto',
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            gap: '20px',
-          }}
-        >
-          <span
-            style={{
-              fontFamily: '"Instrument Serif", Georgia, serif',
-              fontSize: '17px',
-              color: 'white',
-            }}
-          >
-            Jacob
-          </span>
-          <span style={{ color: 'rgba(153,153,153,0.6)', fontSize: '13px' }}>
-            © 2026 Jacob1K. All rights reserved.
-          </span>
-          <Link
-            to="/contact"
-            style={{
-              background: 'white',
-              color: 'black',
-              textDecoration: 'none',
-              padding: '12px 28px',
-              borderRadius: '100px',
-              fontSize: '14px',
-              fontWeight: 500,
-              transition: 'opacity 0.2s',
-            }}
-          >
-            Start your project
-          </Link>
-        </div>
-      </footer>
-
-      {/* Responsive styles */}
-      <style>{`
-        @media (max-width: 640px) {
-          .article-detail-nav-desktop { display: none !important; }
-          .article-detail-nav-mobile-btn { display: flex !important; }
-        }
-      `}</style>
+      <Footer />
     </div>
   );
 }

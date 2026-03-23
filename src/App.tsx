@@ -1,5 +1,5 @@
 // @ts-nocheck
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
 import Particles from './Particles';
@@ -8,6 +8,7 @@ import Particles from './Particles';
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(null);
+  const [testimonialIndex, setTestimonialIndex] = useState(0);
   return (
     <>
       
@@ -95,35 +96,35 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-16cts0g-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="./" data-framer-page-link-current="true">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Home
                         </p>
                       </div>
                       <div className="framer-fxw977" data-framer-name="Line" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', opacity: '0'}}>
                       </div>
-</a>
+</Link>
                       {/* /$ */}
                     </div>
                     {/* /$ */}
                     {/* $ */}
                     <div className="framer-66u6hk-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Articles
                         </p>
                       </div>
                       <div className="framer-fxw977" data-framer-name="Line" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', opacity: '0'}}>
                       </div>
-</a>
+</Link>
                       {/* /$ */}
                     </div>
                     {/* /$ */}
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="./projects">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="#services">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
@@ -185,35 +186,35 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-16cts0g-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="./" data-framer-page-link-current="true">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Home
                         </p>
                       </div>
                       <div className="framer-fxw977" data-framer-name="Line" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', opacity: '0'}}>
                       </div>
-</a>
+</Link>
                       {/* /$ */}
                     </div>
                     {/* /$ */}
                     {/* $ */}
                     <div className="framer-66u6hk-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Articles
                         </p>
                       </div>
                       <div className="framer-fxw977" data-framer-name="Line" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', opacity: '0'}}>
                       </div>
-</a>
+</Link>
                       {/* /$ */}
                     </div>
                     {/* /$ */}
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="./projects">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="#services">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
@@ -364,7 +365,7 @@ export default function App() {
                   <div className="ssr-variant hidden-f2wq4l">
                     <div className="framer-nogdgp-container">
                       {/* $ */}
-                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', opacity: '1'}} href="./projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', opacity: '1'}} href="#services">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           See my projects
                         </p>
@@ -376,7 +377,7 @@ export default function App() {
                   <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                     <div className="framer-nogdgp-container">
                       {/* $ */}
-                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', width: '100%', opacity: '1'}} href="./projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', width: '100%', opacity: '1'}} href="#services">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           See my projects
                         </p>
@@ -476,7 +477,7 @@ export default function App() {
               </div>
             </div>
           </section>
-          <section className="framer-h1as7c" data-framer-name="services">
+          <section className="framer-h1as7c" data-framer-name="services" id="services">
             <div className="framer-1vasyet" data-framer-name="content">
               <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l">
                 <div className="framer-1hsz4c4-container">
@@ -2688,9 +2689,9 @@ export default function App() {
                       {/* $ */}
                       <section style={{display: 'flex', flexDirection: 'row', width: '100%', height: '100%', maxWidth: '100%', maxHeight: '100%', placeItems: 'center', margin: '0', padding: '0px 40px 0px 40px', listStyleType: 'none', textIndent: 'none', opacity: '1', userSelect: 'none'}}>
                         <div style={{width: '100%', height: '100%', margin: '0', padding: 'inherit', position: 'absolute', inset: '0', overflow: 'hidden', borderRadius: '0', userSelect: 'none', perspective: '1200px'}}>
-                          <ul style={{display: 'flex', flexDirection: 'row', width: '100%', height: '100%', maxWidth: '100%', maxHeight: '100%', placeItems: 'center', margin: '0', padding: '0', listStyleType: 'none', textIndent: 'none', gap: '28px', cursor: 'grab', userSelect: 'none', transform: 'none', WebkitTouchCallout: 'none', WebkitUserSelect: 'none', touchAction: 'pan-y'}} draggable="false">
+                          <ul style={{display: 'flex', flexDirection: 'row', width: '100%', height: '100%', maxWidth: '100%', maxHeight: '100%', placeItems: 'center', margin: '0', padding: '0', listStyleType: 'none', textIndent: 'none', gap: '28px', cursor: 'grab', userSelect: 'none', transform: `translateX(calc(-1 * (100% + 28px) * ${testimonialIndex}))`, transition: 'transform 0.5s ease-in-out', WebkitTouchCallout: 'none', WebkitUserSelect: 'none', touchAction: 'pan-y'}} draggable="false">
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-1ywxh7m-container" data-framer-name="1" name="1" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-1ywxh7m-container" data-framer-name="1" name="1" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="1" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -2730,7 +2731,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-15gc0o2-container" data-framer-name="2" name="2" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-15gc0o2-container" data-framer-name="2" name="2" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="2" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -2770,7 +2771,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-1hduuv7-container" data-framer-name="3" name="3" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-1hduuv7-container" data-framer-name="3" name="3" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="3" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -2810,7 +2811,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-bdu5pr-container" data-framer-name="4" name="4" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-bdu5pr-container" data-framer-name="4" name="4" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="4" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -2850,7 +2851,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-5yxa9y-container" data-framer-name="5" name="5" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-5yxa9y-container" data-framer-name="5" name="5" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="5" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -2890,7 +2891,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-grv5e2-container" data-framer-name="6" name="6" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-grv5e2-container" data-framer-name="6" name="6" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="6" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -2930,7 +2931,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-165cisl-container" data-framer-name="7" name="7" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-165cisl-container" data-framer-name="7" name="7" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="7" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -2970,7 +2971,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="false">
-                              <div className="framer-v0du2z-container" data-framer-name="8" name="8" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-v0du2z-container" data-framer-name="8" name="8" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="8" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3010,7 +3011,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-1ywxh7m-container" data-framer-name="1" name="1" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-1ywxh7m-container" data-framer-name="1" name="1" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="1" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3050,7 +3051,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-15gc0o2-container" data-framer-name="2" name="2" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-15gc0o2-container" data-framer-name="2" name="2" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="2" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3090,7 +3091,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-1hduuv7-container" data-framer-name="3" name="3" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-1hduuv7-container" data-framer-name="3" name="3" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="3" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3130,7 +3131,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-bdu5pr-container" data-framer-name="4" name="4" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-bdu5pr-container" data-framer-name="4" name="4" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="4" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3170,7 +3171,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-5yxa9y-container" data-framer-name="5" name="5" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-5yxa9y-container" data-framer-name="5" name="5" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="5" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3210,7 +3211,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-grv5e2-container" data-framer-name="6" name="6" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-grv5e2-container" data-framer-name="6" name="6" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="6" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3250,7 +3251,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-165cisl-container" data-framer-name="7" name="7" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-165cisl-container" data-framer-name="7" name="7" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="7" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3290,7 +3291,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-v0du2z-container" data-framer-name="8" name="8" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-v0du2z-container" data-framer-name="8" name="8" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="8" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3330,7 +3331,7 @@ export default function App() {
                               </div>
                             </li>
                             <li style={{display: 'contents'}} aria-hidden="true">
-                              <div className="framer-1ywxh7m-container" data-framer-name="1" name="1" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'hidden', transform: 'none', transformOrigin: '100% 50% 0'}}>
+                              <div className="framer-1ywxh7m-container" data-framer-name="1" name="1" style={{flexShrink: '0', userSelect: 'none', width: '100%', height: '100%', opacity: '1', visibility: 'visible', transform: 'none', transformOrigin: '100% 50% 0'}}>
                                 <div name="1" className="framer-FHGpD framer-z8xZJ framer-Cmb46 framer-oz4ovi framer-v-oz4ovi" data-framer-name="star-5" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                                   <div className="framer-1ete0uc" data-framer-name="button">
                                     <svg className="framer-YnhV6 framer-mpvb2d" role="presentation" style={{'--1m6trwb': '1', '--21h8s6': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--pgex8v': '0'}} viewBox="0 0 24 24">
@@ -3973,10 +3974,10 @@ export default function App() {
                         </div>
                         <fieldset style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'absolute', pointerEvents: 'none', userSelect: 'none', top: '0', left: '0', right: '0', bottom: '0', border: '0', padding: '0', margin: '0'}} aria-label="Slideshow pagination controls" className="framer--slideshow-controls">
                           <div style={{position: 'absolute', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', gap: 'unset', opacity: '1', alignItems: 'center', inset: '10px', top: '10px', left: '10px', right: '10px', bottom: '10px'}}>
-                            <button type="button" style={{border: 'none', display: 'block', placeContent: 'center', placeItems: 'center', overflow: 'hidden', background: 'transparent', cursor: 'pointer', margin: '0', padding: '0', backgroundColor: 'var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', width: '40px', height: '40px', borderRadius: '40px', pointerEvents: 'auto', transform: 'none'}} aria-label="Previous" tabindex="0">
+                            <button onClick={() => setTestimonialIndex(prev => (prev > 0 ? prev - 1 : 7))} type="button" style={{border: 'none', display: 'block', placeContent: 'center', placeItems: 'center', overflow: 'hidden', background: 'transparent', cursor: 'pointer', margin: '0', padding: '0', backgroundColor: 'var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', width: '40px', height: '40px', borderRadius: '40px', pointerEvents: 'auto', transform: 'none'}} aria-label="Previous" tabindex="0">
                               <img decoding="async" width="40" height="40" src="https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg" alt="Back Arrow" />
                             </button>
-                            <button type="button" style={{border: 'none', display: 'block', placeContent: 'center', placeItems: 'center', overflow: 'hidden', background: 'transparent', cursor: 'pointer', margin: '0', padding: '0', backgroundColor: 'var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', width: '40px', height: '40px', borderRadius: '40px', pointerEvents: 'auto', transform: 'none'}} aria-label="Next" tabindex="0">
+                            <button onClick={() => setTestimonialIndex(prev => (prev < 7 ? prev + 1 : 0))} type="button" style={{border: 'none', display: 'block', placeContent: 'center', placeItems: 'center', overflow: 'hidden', background: 'transparent', cursor: 'pointer', margin: '0', padding: '0', backgroundColor: 'var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', width: '40px', height: '40px', borderRadius: '40px', pointerEvents: 'auto', transform: 'none'}} aria-label="Next" tabindex="0">
                               <img decoding="async" width="40" height="40" src="https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg" alt="Next Arrow" />
                             </button>
                           </div>
@@ -5198,23 +5199,23 @@ export default function App() {
                       <div className="framer-1qt6x2a" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           {/* $ */}
-                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="./" data-framer-page-link-current="true">                          Home
-</a>
+                          <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/">                          Home
+</Link>
                           {/* /$ */}
                         </p>
                       </div>
                       <div className="framer-1220l8p" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           {/* $ */}
-                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="/articles">                          Articles
-</a>
+                          <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/articles">                          Articles
+</Link>
                           {/* /$ */}
                         </p>
                       </div>
                       <div className="framer-1nqinf3" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           {/* $ */}
-                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="./projects">                          Projects
+                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="#services">                          Projects
 </a>
                           {/* /$ */}
                         </p>

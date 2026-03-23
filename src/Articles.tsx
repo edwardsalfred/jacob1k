@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Header, Footer } from './SharedLayout.tsx';
+import Particles from './Particles.tsx';
 
 const articles = [
   {
@@ -47,6 +48,17 @@ const articles = [
     image: '/surviving-videographer.png',
     link: '/articles/surviving-as-a-videographer-in-2026-crowded-market',
   },
+  {
+    slug: 'designing-for-motion-how-micro-animations-shape-user-experience',
+    title: 'Designing for Motion: How Micro-Animations Shape User Experience',
+    category: 'Design',
+    date: 'Apr 10, 2026',
+    readTime: '4 min read',
+    excerpt:
+      'Learn why micro-animations guide users, improve usability, and boost conversions, plus best practices for timing, performance, and accessibility.',
+    image: 'https://framerusercontent.com/images/2XmQwKSaHgfErm1BpvZyUSJrgs.png',
+    link: '/articles/designing-for-motion-how-micro-animations-shape-user-experience',
+  },
 
 ];
 
@@ -77,19 +89,17 @@ export default function Articles() {
     <div
       style={{
         minHeight: '100vh',
-        background: 'rgb(0,0,0)',
+        background: '#000',
         color: 'white',
         fontFamily: '"Satoshi", "Fragment Mono", sans-serif',
         position: 'relative',
         overflowX: 'hidden',
       }}
     >
-      {/* Background blobs */}
-      <div className="bg-blob bg-blob-1" />
-      <div className="bg-blob bg-blob-2" />
-      <div className="bg-blob bg-blob-3" />
-      <div className="bg-blob bg-blob-4" />
+      <div className="bg-glow-top" />
+      <div className="bg-glow-bottom" />
       <div className="bg-noise" />
+      <Particles />
 
       <Header />
 
