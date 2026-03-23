@@ -12,7 +12,7 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--muted, rgba(239,239,239,0.38));
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -23,6 +23,14 @@
   height: 1px;
   flex: 1;
   background: var(--border, rgba(255,255,255,0.06));
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: var(--text, #efefef);
+  font-family: 'Outfit', sans-serif;
 }
 
 .filters {
