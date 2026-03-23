@@ -49,8 +49,7 @@ const PortfolioWork: React.FC = () => {
 
   return (
     <div className="work-root">
-      <div className="section-label">Selected</div>
-      <h2 className="section-title">Projects</h2>
+      <div className="section-label">Projects</div>
       
       <div className="filters">
         {categories.map(cat => (
