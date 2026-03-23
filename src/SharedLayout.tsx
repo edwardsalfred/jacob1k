@@ -20,7 +20,7 @@ export function Header() {
           left: 0,
           right: 0,
           zIndex: 100,
-          background: scrolled
+            background: scrolled
             ? 'rgba(0,0,0,0.85)'
             : 'linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 60%, transparent 100%)',
           backdropFilter: scrolled ? 'blur(16px)' : 'none',
@@ -76,7 +76,7 @@ export function Header() {
             position: 'fixed',
             inset: 0,
             zIndex: 99,
-            background: 'rgb(17,17,17)',
+            background: '#000',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
@@ -131,7 +131,7 @@ export function Footer() {
   return (
     <footer
       style={{
-        background: '#111',
+        background: '#000',
         position: 'relative',
         zIndex: 1,
         padding: '60px 4% 0',

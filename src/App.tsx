@@ -4202,7 +4202,7 @@ export default function App() {
                       </div>
                     </div>
                     
-                    <div className="framer-hemy92-container">
+                    <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
                           <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
@@ -4213,7 +4213,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                What are your payment methods?
+                                How can I officially secure my booking?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4226,7 +4226,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I accept Cash App, Apple Pay, and cash. Payment details will be shared once your booking is confirmed.
+                                To officially secure your booking, a deposit must be paid. I accept Cash App, Apple Pay, and cash. Once the deposit is received, your date is held exclusively for you.
                               </p>
                             </div>
                           </div>
@@ -4395,7 +4395,7 @@ export default function App() {
                       </div>
                     </div>
                     
-                    <div className="framer-hemy92-container">
+                    <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
                           <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
@@ -4406,7 +4406,7 @@ export default function App() {
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                What are your payment methods?
+                                How can I officially secure my booking?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4419,7 +4419,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I accept Cash App, Apple Pay, and cash. Payment details will be shared once your booking is confirmed.
+                                To officially secure your booking, a deposit must be paid. I accept Cash App, Apple Pay, and cash. Once the deposit is received, your date is held exclusively for you.
                               </p>
                             </div>
                           </div>
@@ -4588,18 +4588,18 @@ export default function App() {
                       </div>
                     </div>
                     
-                    <div className="framer-hemy92-container">
-                      <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
+                    <div className="framer-gjo1bc-container">
+                      <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Mobile Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
                           <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
-                            <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                            <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               006.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
                             <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
-                                What are your payment methods?
+                                How can I officially secure my booking?
                               </h3>
                             </div>
                             <svg className="framer-ohg0r framer-1w78jxw" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5', transform: 'none'}} viewBox="0 0 24 24">
@@ -4612,7 +4612,7 @@ export default function App() {
                           <div className="framer-19zvow4" data-framer-name="wrapper">
                             <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
-                                I accept Cash App, Apple Pay, and cash. Payment details will be shared once your booking is confirmed.
+                                To officially secure your booking, a deposit must be paid. I accept Cash App, Apple Pay, and cash. Once the deposit is received, your date is held exclusively for you.
                               </p>
                             </div>
                           </div>

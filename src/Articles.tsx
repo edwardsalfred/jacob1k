@@ -195,7 +195,7 @@ export default function Articles() {
               onMouseEnter={() => setHoveredCard(article.slug)}
               onMouseLeave={() => setHoveredCard(null)}
               style={{
-                background: 'rgb(17,17,17)',
+                background: '#000',
                 borderRadius: '16px',
                 overflow: 'hidden',
                 border: '1px solid rgba(153,153,153,0.12)',
