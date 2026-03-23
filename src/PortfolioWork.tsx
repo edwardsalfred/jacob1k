@@ -11,12 +11,10 @@ interface Video {
 }
 
 const vids: Video[] = [
-  { id: 'dQw4w9WgXcQ', title: 'Natalie & Marcus', type: 'Wedding', category: 'wedding', duration: '4:32' },
-  { id: 'dQw4w9WgXcQ', title: 'Apex Brand Film', type: 'Commercial', category: 'commercial', duration: '2:10' },
-  { id: 'dQw4w9WgXcQ', title: 'The Grand Gala', type: 'Event', category: 'event', duration: '3:55' },
-  { id: 'dQw4w9WgXcQ', title: 'Wanderlust', type: 'Documentary', category: 'documentary', duration: '8:45' },
-  { id: 'dQw4w9WgXcQ', title: 'Sofia & James', type: 'Wedding', category: 'wedding', duration: '5:14' },
-  { id: 'dQw4w9WgXcQ', title: 'Lumina Skincare', type: 'Commercial', category: 'commercial', duration: '0:32' },
+  { id: 'YOUR_YT_ID_1', title: 'Pestorix', type: '2024', category: 'wedding', duration: '4:32' },
+  { id: 'YOUR_YT_ID_2', title: 'Danzora', type: '2024', category: 'commercial', duration: '2:10' },
+  { id: 'YOUR_YT_ID_3', title: 'Didasko', type: '2024', category: 'event', duration: '3:55' },
+  { id: 'YOUR_YT_ID_4', title: 'Harmonix', type: '2024', category: 'documentary', duration: '8:45' },
 ];
 
 const PortfolioWork: React.FC = () => {
