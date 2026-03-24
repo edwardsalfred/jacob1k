@@ -1,129 +1,130 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './index.css';
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 60);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
-    <>
-      <header
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 100,
-            background: scrolled
-            ? 'rgba(0,0,0,0.85)'
-            : 'linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 60%, transparent 100%)',
-          backdropFilter: scrolled ? 'blur(16px)' : 'none',
-          WebkitBackdropFilter: scrolled ? 'blur(16px)' : 'none',
-          padding: '24px 40px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          transition: 'background 0.3s, backdrop-filter 0.3s',
-        }}
-      >
-        <Link to="/" style={{ textDecoration: 'none' }}>
-          <img 
-            src="/latestjacob-removebg-preview.png" 
-            style={{ height: '76px', width: 'auto', display: 'block' }} 
-          />
-        </Link>
-
-        {/* Hamburger */}
-        <button
-          onClick={() => setMenuOpen((o) => !o)}
-          style={{
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            padding: '4px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '6px',
-          }}
-          aria-label="Menu"
-        >
-          {[0, 1, 2].map((i) => (
-            <span
-              key={i}
-              style={{
-                display: 'block',
-                width: '32px',
-                height: '1.5px',
-                background: 'rgb(200,200,200)',
-                borderRadius: '2px',
-                transition: 'transform 0.2s',
-              }}
-            />
-          ))}
-        </button>
-      </header>
-
-      {/* Mobile menu overlay */}
-      {menuOpen && (
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            zIndex: 99,
-            background: '#000',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'flex-start',
-            padding: '60px 40px',
-            gap: '32px',
-          }}
-        >
-          <button
-            onClick={() => setMenuOpen(false)}
-            style={{
-              position: 'absolute',
-              top: '24px',
-              right: '32px',
-              background: 'none',
-              border: 'none',
-              color: 'white',
-              fontSize: '24px',
-              cursor: 'pointer',
-            }}
-          >
-            ✕
-          </button>
-          {[
-            { label: 'Home', to: '/' },
-            { label: 'Articles', to: '/articles' },
-            { label: 'Projects', to: '/projects' },
-            { label: 'Get in touch', to: '/contact' },
-          ].map((item) => (
-            <Link
-              key={item.label}
-              to={item.to}
-              onClick={() => setMenuOpen(false)}
-              style={{
-                color: 'white',
-                textDecoration: 'none',
-                fontSize: '32px',
-                fontFamily: '"Instrument Serif", Georgia, serif',
-                fontWeight: 400,
-              }}
-            >
-              {item.label}
-            </Link>
-          ))}
+    <div className="framer-1tzjxip-container" data-framer-layout-hint-center-x="true" style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000 }}>
+      {/* Desktop Header */}
+      <div className="ssr-variant hidden-1jw10ax">
+        <div className={`framer-Gice7 framer-wfq30t ${menuOpen ? 'framer-v-d51zca' : 'framer-v-15m6der'}`} data-framer-name="Desktop - Off" style={{width: '100%'}}>
+          <div className="framer-194evps" data-framer-name="Background" data-highlight="true" style={{backdropFilter: 'blur(0px)', WebkitBackdropFilter: 'blur(0px)'}} tabIndex={0}></div>
+          <header className="framer-1fiv5us" data-framer-name="header" style={{background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 97.74774774774775%)'}}>
+            <nav className="framer-12fwuhv" data-framer-name="content">
+              <div className="framer-16mznv0" data-framer-name="wrapper">
+                <div className="framer-1izoyka-container">
+                  <Link className="framer-HOJPI framer-VuWFR framer-13obwic framer-v-13obwic framer-1te0x0d" data-framer-name="Default" data-highlight="true" to="/" tabIndex={0}>
+                    <img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '72px', width: 'auto', display: 'block'}} />
+                  </Link>
+                </div>
+                <div className="framer-1fsbdi0-container">
+                  <div className={`framer-26mG5 framer-1i3853m ${menuOpen ? 'framer-v-j0njfn' : 'framer-v-1i3853m'}`} data-framer-name="Inactive" data-highlight="true" style={{height: '100%', width: '100%', cursor: 'pointer'}} tabIndex={0} onClick={() => setMenuOpen(o => !o)}>
+                    <div className="framer-1j0133v" data-framer-name="Line" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderBottomLeftRadius: '1000px', borderBottomRightRadius: '1000px', borderTopLeftRadius: '1000px', borderTopRightRadius: '1000px', transform: 'none'}}></div>
+                    <div className="framer-l6qwvu" data-framer-name="Line" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderBottomLeftRadius: '1000px', borderBottomRightRadius: '1000px', borderTopLeftRadius: '1000px', borderTopRightRadius: '1000px'}}></div>
+                    <div className="framer-hjv6oz" data-framer-name="Line" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderBottomLeftRadius: '1000px', borderBottomRightRadius: '1000px', borderTopLeftRadius: '1000px', borderTopRightRadius: '1000px', transform: 'none'}}></div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <div className="framer-5lszq" data-framer-name="navigation" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', display: menuOpen ? 'block' : 'none'}}>
+            <div className="framer-3y05gb" data-framer-name="content" style={{opacity: menuOpen ? '1' : '0'}}>
+              <div className="framer-x7etxh" data-framer-name="wrapper">
+                <div className="framer-16cts0g-container">
+                  <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Home</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="framer-66u6hk-container">
+                  <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/articles" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Articles</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="framer-1i4yhxm-container">
+                  <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="/#projects" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Projects</p>
+                    </div>
+                  </a>
+                </div>
+                <div className="framer-1n16592-container">
+                  <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/contact" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Get in touch</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      )}
-    </>
+      </div>
+
+      {/* Mobile Header */}
+      <div className="ssr-variant hidden-1rtwx6s hidden-he6zob">
+        <div className={`framer-Gice7 framer-wfq30t ${menuOpen ? 'framer-v-d51zca' : 'framer-v-2qk1ce'}`} data-framer-name="Mobile - Off" style={{width: '100%'}}>
+          <div className="framer-194evps" data-framer-name="Background" style={{backdropFilter: 'blur(0px)', WebkitBackdropFilter: 'blur(0px)'}}></div>
+          <header className="framer-1fiv5us" data-framer-name="header" style={{background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 97.74774774774775%)'}}>
+            <nav className="framer-12fwuhv" data-framer-name="content">
+              <div className="framer-16mznv0" data-framer-name="wrapper">
+                <div className="framer-1izoyka-container">
+                  <Link className="framer-HOJPI framer-VuWFR framer-13obwic framer-v-13obwic framer-1te0x0d" data-framer-name="Default" data-highlight="true" to="/" tabIndex={0}>
+                    <img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '72px', width: 'auto', display: 'block'}} />
+                  </Link>
+                </div>
+                <div className="framer-1fsbdi0-container">
+                  <div className={`framer-26mG5 framer-1i3853m ${menuOpen ? 'framer-v-j0njfn' : 'framer-v-1i3853m'}`} data-framer-name="Inactive" data-highlight="true" style={{height: '100%', width: '100%', cursor: 'pointer'}} tabIndex={0} onClick={() => setMenuOpen(o => !o)}>
+                    <div className="framer-1j0133v" data-framer-name="Line" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderBottomLeftRadius: '1000px', borderBottomRightRadius: '1000px', borderTopLeftRadius: '1000px', borderTopRightRadius: '1000px', transform: 'none'}}></div>
+                    <div className="framer-l6qwvu" data-framer-name="Line" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderBottomLeftRadius: '1000px', borderBottomRightRadius: '1000px', borderTopLeftRadius: '1000px', borderTopRightRadius: '1000px'}}></div>
+                    <div className="framer-hjv6oz" data-framer-name="Line" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderBottomLeftRadius: '1000px', borderBottomRightRadius: '1000px', borderTopLeftRadius: '1000px', borderTopRightRadius: '1000px', transform: 'none'}}></div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <div className="framer-5lszq" data-framer-name="navigation" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', display: menuOpen ? 'block' : 'none'}}>
+            <div className="framer-3y05gb" data-framer-name="content" style={{opacity: menuOpen ? '1' : '0'}}>
+              <div className="framer-x7etxh" data-framer-name="wrapper">
+                <div className="framer-16cts0g-container">
+                  <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Home</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="framer-66u6hk-container">
+                  <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/articles" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Articles</p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="framer-1i4yhxm-container">
+                  <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="/#projects" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Projects</p>
+                    </div>
+                  </a>
+                </div>
+                <div className="framer-1n16592-container">
+                  <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/contact" onClick={() => setMenuOpen(false)}>
+                    <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">Get in touch</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
