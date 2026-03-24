@@ -4,7 +4,7 @@ import Particles from './Particles';
 
 export default function Contact() {
   const navigate = useNavigate();
-  const [form, setForm] = useState({ name: '', email: '', message: '', privacy: false });
+  const [form, setForm] = useState({ name: '', email: '', message: '', privacy: true });
   const [sent, setSent] = useState(false);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
