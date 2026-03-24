@@ -21,15 +21,16 @@ export function Header() {
           left: 0,
           right: 0,
           zIndex: 1000,
-          padding: '24px 40px',
+          padding: '32px 6%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 60%, transparent 100%)',
+          background: menuOpen ? 'transparent' : 'linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, transparent 100%)',
+          transition: 'background 0.3s',
         }}
       >
-        <Link to="/" style={{ textDecoration: 'none' }}>
-           <img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{ height: '72px', width: 'auto', display: 'block' }} />
+        <Link to="/" style={{ textDecoration: 'none' }} onClick={() => setMenuOpen(false)}>
+           <img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{ height: '64px', width: 'auto', display: 'block' }} />
         </Link>
 
         {/* Hamburger */}
@@ -42,14 +43,14 @@ export function Header() {
             padding: '10px',
             display: 'flex',
             flexDirection: 'column',
+            alignItems: 'flex-end',
             gap: '8px',
             zIndex: 1100,
           }}
           aria-label="Menu"
         >
-          <span style={{ display: 'block', width: '32px', height: '1.5px', background: 'rgb(200,200,200)', transition: 'transform 0.3s', transform: menuOpen ? 'translateY(9px) rotate(45deg)' : 'none' }}></span>
-          <span style={{ display: 'block', width: '32px', height: '1.5px', background: 'rgb(200,200,200)', opacity: menuOpen ? 0 : 1, transition: 'opacity 0.3s' }}></span>
-          <span style={{ display: 'block', width: '32px', height: '1.5px', background: 'rgb(200,200,200)', transition: 'transform 0.3s', transform: menuOpen ? 'translateY(-10px) rotate(-45deg)' : 'none' }}></span>
+          <span style={{ display: 'block', width: '40px', height: '1.5px', background: 'white', transition: 'all 0.3s', transform: menuOpen ? 'translateY(5px) rotate(45deg)' : 'none' }}></span>
+          <span style={{ display: 'block', width: menuOpen ? '40px' : '28px', height: '1.5px', background: 'white', transition: 'all 0.3s', transform: menuOpen ? 'translateY(-4.5px) rotate(-45deg)' : 'none' }}></span>
         </button>
       </header>
 
@@ -64,49 +65,58 @@ export function Header() {
           flexDirection: 'column',
           justifyContent: 'center',
           padding: '0 10%',
-          transition: 'transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
-          transform: menuOpen ? 'translateY(0)' : 'translateY(-100%)',
+          transition: 'opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
+          opacity: menuOpen ? 1 : 0,
+          pointerEvents: menuOpen ? 'auto' : 'none',
         }}
       >
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-          {menuItems.map((item) => (
-            item.to.startsWith('/#') ? (
-              <a
-                key={item.label}
-                href={item.to}
-                onClick={() => setMenuOpen(false)}
-                style={{
-                  color: 'white',
-                  textDecoration: 'none',
-                  fontSize: 'clamp(40px, 8vw, 64px)',
-                  fontFamily: '"Instrument Serif", Georgia, serif',
-                  fontWeight: 400,
-                  opacity: menuOpen ? 1 : 0,
-                  transition: 'opacity 0.4s ease 0.2s, transform 0.4s ease 0.2s',
-                  transform: menuOpen ? 'translateY(0)' : 'translateY(20px)',
-                }}
-              >
-                {item.label}
-              </a>
-            ) : (
-              <Link
-                key={item.label}
-                to={item.to}
-                onClick={() => setMenuOpen(false)}
-                style={{
-                  color: 'white',
-                  textDecoration: 'none',
-                  fontSize: 'clamp(40px, 8vw, 64px)',
-                  fontFamily: '"Instrument Serif", Georgia, serif',
-                  fontWeight: 400,
-                  opacity: menuOpen ? 1 : 0,
-                  transition: 'opacity 0.4s ease 0.2s, transform 0.4s ease 0.2s',
-                  transform: menuOpen ? 'translateY(0)' : 'translateY(20px)',
-                }}
-              >
-                {item.label}
-              </Link>
-            )
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          {menuItems.map((item, idx) => (
+            <div 
+              key={item.label}
+              style={{
+                overflow: 'hidden',
+                opacity: menuOpen ? 1 : 0,
+                transform: menuOpen ? 'translateY(0)' : 'translateY(40px)',
+                transition: `all 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${0.1 + idx * 0.08}s`
+              }}
+            >
+              {item.to.startsWith('/#') ? (
+                <a
+                  href={item.to}
+                  onClick={() => setMenuOpen(false)}
+                  style={{
+                    color: 'white',
+                    textDecoration: 'none',
+                    fontSize: 'clamp(52px, 12vw, 88px)',
+                    fontFamily: '"Instrument Serif", Georgia, serif',
+                    fontWeight: 400,
+                    lineHeight: 1.1,
+                    letterSpacing: '-0.02em',
+                    display: 'inline-block',
+                  }}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  to={item.to}
+                  onClick={() => setMenuOpen(false)}
+                  style={{
+                    color: 'white',
+                    textDecoration: 'none',
+                    fontSize: 'clamp(52px, 12vw, 88px)',
+                    fontFamily: '"Instrument Serif", Georgia, serif',
+                    fontWeight: 400,
+                    lineHeight: 1.1,
+                    letterSpacing: '-0.02em',
+                    display: 'inline-block',
+                  }}
+                >
+                  {item.label}
+                </Link>
+              )}
+            </div>
           ))}
         </div>
       </div>
