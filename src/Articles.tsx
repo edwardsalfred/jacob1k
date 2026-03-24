@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Header, Footer } from './SharedLayout.tsx';
 import Particles from './Particles.tsx';
 
@@ -87,6 +87,7 @@ export default function Articles() {
 
   return (
     <div
+      className="framer-i3OY7 framer-he6zob"
       style={{
         minHeight: '100vh',
         background: '#000',
@@ -94,6 +95,7 @@ export default function Articles() {
         fontFamily: '"Satoshi", "Fragment Mono", sans-serif',
         position: 'relative',
         overflowX: 'hidden',
+        width: 'auto'
       }}
     >
       <div className="bg-glow-top" />

@@ -31,7 +31,7 @@ export function Header() {
           </header>
           <div className="framer-5lszq" data-framer-name="navigation" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', display: menuOpen ? 'block' : 'none'}}>
             <div className="framer-3y05gb" data-framer-name="content" style={{opacity: menuOpen ? '1' : '0'}}>
-              <div className="framer-x7etxh" data-framer-name="wrapper">
+              <div className="framer-x7etxh" data-framer-name="wrapper" style={{ padding: '0 6%', maxWidth: '1440px', margin: '0 auto' }}>
                 <div className="framer-16cts0g-container">
                   <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/" onClick={() => setMenuOpen(false)}>
                     <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
@@ -90,7 +90,7 @@ export function Header() {
           </header>
           <div className="framer-5lszq" data-framer-name="navigation" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', display: menuOpen ? 'block' : 'none'}}>
             <div className="framer-3y05gb" data-framer-name="content" style={{opacity: menuOpen ? '1' : '0'}}>
-              <div className="framer-x7etxh" data-framer-name="wrapper">
+              <div className="framer-x7etxh" data-framer-name="wrapper" style={{ padding: '0 6%', maxWidth: '1440px', margin: '0 auto' }}>
                 <div className="framer-16cts0g-container">
                   <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/" onClick={() => setMenuOpen(false)}>
                     <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'} as any} data-framer-component-type="RichTextContainer">
