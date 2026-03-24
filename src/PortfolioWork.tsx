@@ -72,7 +72,17 @@ const PortfolioWork: React.FC = () => {
             onClick={() => openLightbox(v)}
           >
             <div className="video-thumb">
-              <img src={`https://img.youtube.com/vi/${v.id}/maxresdefault.jpg`} alt={v.title} loading="lazy" />
+              <img 
+                src={`https://img.youtube.com/vi/${v.id}/maxresdefault.jpg`} 
+                alt={v.title} 
+                loading="lazy" 
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  if (!target.src.includes('hqdefault.jpg')) {
+                    target.src = `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`;
+                  }
+                }}
+              />
               <div className="play-overlay">
                 <div className="play-icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
