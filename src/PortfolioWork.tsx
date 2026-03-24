@@ -73,13 +73,13 @@ const PortfolioWork: React.FC = () => {
           >
             <div className="video-thumb">
               <img 
-                src={`https://img.youtube.com/vi/${v.id}/maxresdefault.jpg`} 
+                src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`} 
                 alt={v.title} 
                 loading="lazy" 
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  if (!target.src.includes('hqdefault.jpg')) {
-                    target.src = `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`;
+                  if (!target.src.includes('0.jpg')) {
+                    target.src = `https://i.ytimg.com/vi/${v.id}/0.jpg`;
                   }
                 }}
               />
