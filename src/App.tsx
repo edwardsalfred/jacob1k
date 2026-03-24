@@ -125,7 +125,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="#services">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="#projects">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
@@ -215,7 +215,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="#services">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="#projects">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
@@ -839,7 +839,7 @@ export default function App() {
               </div>
             </div>
           </section>
-          <section id="work" className="framer-x1dgnz" data-framer-name="projects">
+          <section id="projects" className="framer-x1dgnz" data-framer-name="projects">
             <PortfolioWork />
           </section>
           <section className="framer-uudsc8" data-framer-name="testimonials">
@@ -4836,7 +4836,7 @@ export default function App() {
                       <div className="framer-1nqinf3" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           {/* $ */}
-                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="#services">                          Projects
+                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="#projects">                          Projects
 </a>
                           {/* /$ */}
                         </p>
