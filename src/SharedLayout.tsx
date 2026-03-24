@@ -5,127 +5,106 @@ import './index.css';
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const menuItems = [
-    { label: 'Home', to: '/' },
-    { label: 'Articles', to: '/articles' },
-    { label: 'Projects', to: '/#projects' },
-    { label: 'Get in touch', to: '/contact' },
+  const desktopLinks = [
+    { id: 'framer-16cts0g-container', label: 'Home', to: '/', isAnchor: false },
+    { id: 'framer-66u6hk-container', label: 'Articles', to: '/articles', isAnchor: false },
+    { id: 'framer-1i4yhxm-container', label: 'Projects', to: '/#projects', isAnchor: true },
+    { id: 'framer-1n16592-container', label: 'Get in touch', to: '/contact', isAnchor: false },
   ];
 
-  return (
-    <>
-      <header
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 1000,
-          padding: '32px 6%',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          background: menuOpen ? 'transparent' : 'linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, transparent 100%)',
-          transition: 'background 0.3s',
-        }}
-      >
-        <Link to="/" style={{ textDecoration: 'none' }} onClick={() => setMenuOpen(false)}>
-           <img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{ height: '64px', width: 'auto', display: 'block' }} />
-        </Link>
+  const renderNavItem = (item: typeof desktopLinks[0], variant: string) => {
+    const linkClass = `framer-iNDTq framer-V2ibY framer-1ak38fk ${variant} framer-1dv31s5`;
+    const inner = (
+      <>
+        <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: 0, transform: 'none'}}>
+          <p className="framer-text framer-styles-preset-v5wz0l">{item.label}</p>
+        </div>
+        <div className="framer-fxw977" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', opacity: '0'}} />
+      </>
+    );
+    if (item.isAnchor) {
+      return (
+        <a className={linkClass} style={{width: '100%'}} href={item.to} onClick={() => setMenuOpen(false)}>
+          {inner}
+        </a>
+      );
+    }
+    return (
+      <Link className={linkClass} style={{width: '100%'}} to={item.to} onClick={() => setMenuOpen(false)}>
+        {inner}
+      </Link>
+    );
+  };
 
-        {/* Hamburger */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          style={{
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            padding: '10px',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '8px',
-            width: '50px',
-            height: '40px',
-            position: 'relative',
-            zIndex: 1100,
-          }}
-          aria-label="Menu"
-        >
-          <span style={{ display: 'block', width: '40px', height: '2px', background: 'rgb(153, 153, 153)', borderRadius: '1000px', transition: 'all 0.3s', transform: menuOpen ? 'translateY(10px) rotate(45deg)' : 'none' }}></span>
-          <span style={{ display: 'block', width: '50px', height: '2px', background: 'rgb(153, 153, 153)', borderRadius: '1000px', transition: 'all 0.3s', opacity: menuOpen ? 0 : 1 }}></span>
-          <span style={{ display: 'block', width: '40px', height: '2px', background: 'rgb(153, 153, 153)', borderRadius: '1000px', transition: 'all 0.3s', transform: menuOpen ? 'translateY(-10px) rotate(-45deg)' : 'none' }}></span>
-        </button>
-      </header>
-
-      {/* Full-screen menu overlay */}
+  const hamburger = (
+    <div className="framer-1fsbdi0-container">
       <div
-        style={{
-          position: 'fixed',
-          inset: 0,
-          zIndex: 1050,
-          background: 'rgb(17, 17, 17)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          padding: '0 10%',
-          transition: 'opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
-          opacity: menuOpen ? 1 : 0,
-          pointerEvents: menuOpen ? 'auto' : 'none',
-        }}
+        className={`framer-26mG5 framer-1i3853m ${menuOpen ? 'framer-v-j0njfn' : 'framer-v-1i3853m'}`}
+        style={{height: '100%', width: '100%', cursor: 'pointer'}}
+        onClick={() => setMenuOpen(o => !o)}
       >
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-          {menuItems.map((item, idx) => (
-            <div 
-              key={item.label}
-              style={{
-                overflow: 'hidden',
-                opacity: menuOpen ? 1 : 0,
-                transform: menuOpen ? 'translateY(0)' : 'translateY(40px)',
-                transition: `all 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${0.1 + idx * 0.08}s`
-              }}
-            >
-              {item.to.startsWith('/#') ? (
-                <a
-                  href={item.to}
-                  onClick={() => setMenuOpen(false)}
-                  style={{
-                    color: 'rgb(153, 153, 153)',
-                    textDecoration: 'none',
-                    fontSize: '60px',
-                    fontFamily: '"Instrument Serif", "Instrument Serif Placeholder", serif',
-                    fontWeight: 400,
-                    lineHeight: 1.2,
-                    letterSpacing: '-0.02em',
-                    display: 'inline-block',
-                  }}
-                >
-                  {item.label}
-                </a>
-              ) : (
-                <Link
-                  to={item.to}
-                  onClick={() => setMenuOpen(false)}
-                  style={{
-                    color: 'rgb(153, 153, 153)',
-                    textDecoration: 'none',
-                    fontSize: '60px',
-                    fontFamily: '"Instrument Serif", "Instrument Serif Placeholder", serif',
-                    fontWeight: 400,
-                    lineHeight: 1.2,
-                    letterSpacing: '-0.02em',
-                    display: 'inline-block',
-                  }}
-                >
-                  {item.label}
-                </Link>
-              )}
+        <div className="framer-1j0133v" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderRadius: '1000px', transform: 'none'}} />
+        <div className="framer-l6qwvu" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderRadius: '1000px'}} />
+        <div className="framer-hjv6oz" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderRadius: '1000px', transform: 'none'}} />
+      </div>
+    </div>
+  );
+
+  const navMenu = (linkVariant: string) => (
+    <div className="framer-5lszq" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))'}}>
+      <div className="framer-3y05gb" style={{opacity: menuOpen ? '1' : '0'}}>
+        <div className="framer-x7etxh">
+          {desktopLinks.map(item => (
+            <div key={item.id} className={item.id}>
+              {renderNavItem(item, linkVariant)}
             </div>
           ))}
         </div>
       </div>
-    </>
+    </div>
+  );
+
+  return (
+    <div className="framer-1tzjxip-container">
+      {/* Desktop */}
+      <div className="ssr-variant hidden-1jw10ax">
+        <div className={`framer-Gice7 framer-wfq30t ${menuOpen ? 'framer-v-d51zca' : 'framer-v-15m6der'}`} style={{width: '100%'}}>
+          <div className="framer-194evps" style={{backdropFilter: 'blur(0px)', WebkitBackdropFilter: 'blur(0px)'}} />
+          <header className="framer-1fiv5us" style={{background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 97.74774774774775%)'}}>
+            <nav className="framer-12fwuhv">
+              <div className="framer-16mznv0">
+                <div className="framer-1izoyka-container">
+                  <Link to="/" onClick={() => setMenuOpen(false)}>
+                    <img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '72px', width: 'auto', display: 'block'}} />
+                  </Link>
+                </div>
+                {hamburger}
+              </div>
+            </nav>
+          </header>
+          {navMenu('framer-v-1ak38fk')}
+        </div>
+      </div>
+      {/* Mobile */}
+      <div className="ssr-variant hidden-1rtwx6s hidden-he6zob">
+        <div className={`framer-Gice7 framer-wfq30t ${menuOpen ? 'framer-v-d51zca' : 'framer-v-2qk1ce'}`} style={{width: '100%'}}>
+          <div className="framer-194evps" style={{backdropFilter: 'blur(0px)', WebkitBackdropFilter: 'blur(0px)'}} />
+          <header className="framer-1fiv5us" style={{background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 97.74774774774775%)'}}>
+            <nav className="framer-12fwuhv">
+              <div className="framer-16mznv0">
+                <div className="framer-1izoyka-container">
+                  <Link to="/" onClick={() => setMenuOpen(false)}>
+                    <img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '72px', width: 'auto', display: 'block'}} />
+                  </Link>
+                </div>
+                {hamburger}
+              </div>
+            </nav>
+          </header>
+          {navMenu('framer-v-1wwxyxw')}
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -159,17 +138,17 @@ export function Footer() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
           {/* Logo */}
           <Link to="/">
-            <img 
-              src="/latestjacob-removebg-preview.png" 
-            style={{ height: '80px', width: 'auto', display: 'block' }} 
+            <img
+              src="/latestjacob-removebg-preview.png"
+            style={{ height: '80px', width: 'auto', display: 'block' }}
           />
           </Link>
-          
+
           {/* Description */}
-          <p style={{ 
-            color: 'rgba(153,153,153,0.85)', 
-            fontSize: '15px', 
-            lineHeight: 1.6, 
+          <p style={{
+            color: 'rgba(153,153,153,0.85)',
+            fontSize: '15px',
+            lineHeight: 1.6,
             maxWidth: '380px',
             margin: 0,
             fontFamily: '"Inter", sans-serif'
@@ -196,49 +175,49 @@ export function Footer() {
         {/* Right Column */}
         <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
            <div style={{ width: '100%', maxWidth: '300px', margin: '0 auto', position: 'relative' }}>
-             <img 
-               src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png" 
-               alt="Jacob" 
-               style={{ 
-                 width: '100%', 
-                 height: 'auto', 
+             <img
+               src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png"
+               alt="Jacob"
+               style={{
+                 width: '100%',
+                 height: 'auto',
                  display: 'block',
                  maskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 80%)',
                  WebkitMaskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 80%)'
-               }} 
+               }}
              />
            </div>
-           
-           <div style={{ 
-             position: 'absolute', 
-             top: '55%', 
-             left: '50%', 
-             transform: 'translate(-50%, -50%)', 
-             zIndex: 3, 
-             textAlign: 'center', 
+
+           <div style={{
+             position: 'absolute',
+             top: '55%',
+             left: '50%',
+             transform: 'translate(-50%, -50%)',
+             zIndex: 3,
+             textAlign: 'center',
              width: '100%',
              filter: 'drop-shadow(0px 4px 6px rgba(0,0,0,0.5))'
            }}>
-             <h3 style={{ 
-               fontFamily: '"Instrument Serif", Georgia, serif', 
-               fontSize: 'clamp(32px, 4vw, 42px)', 
-               fontWeight: 400, 
-               color: 'white', 
+             <h3 style={{
+               fontFamily: '"Instrument Serif", Georgia, serif',
+               fontSize: 'clamp(32px, 4vw, 42px)',
+               fontWeight: 400,
+               color: 'white',
                margin: '0 0 24px',
                letterSpacing: '-0.01em'
              }}>
                Let's build your next big thing
              </h3>
-             <Link 
-               to="/contact" 
-               style={{ 
+             <Link
+               to="/contact"
+               style={{
                  display: 'inline-block',
-                 background: 'white', 
-                 color: 'black', 
-                 textDecoration: 'none', 
-                 padding: '16px 32px', 
-                 borderRadius: '100px', 
-                 fontSize: '16px', 
+                 background: 'white',
+                 color: 'black',
+                 textDecoration: 'none',
+                 padding: '16px 32px',
+                 borderRadius: '100px',
+                 fontSize: '16px',
                  fontWeight: 500,
                  fontFamily: '"Inter", sans-serif'
                }}
