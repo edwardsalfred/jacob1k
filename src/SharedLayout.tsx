@@ -6,10 +6,10 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const desktopLinks = [
-    { id: 'framer-16cts0g-container', label: 'Home', to: '/', isAnchor: false },
-    { id: 'framer-66u6hk-container', label: 'Articles', to: '/articles', isAnchor: false },
-    { id: 'framer-1i4yhxm-container', label: 'Projects', to: '/#projects', isAnchor: true },
-    { id: 'framer-1n16592-container', label: 'Get in touch', to: '/contact', isAnchor: false },
+    { id: 'framer-16cts0g-container', label: 'Home', to: '/' },
+    { id: 'framer-66u6hk-container', label: 'Articles', to: '/articles' },
+    { id: 'framer-1i4yhxm-container', label: 'Projects', to: '/#projects' },
+    { id: 'framer-1n16592-container', label: 'Get in touch', to: '/contact' },
   ];
 
   const renderNavItem = (item: typeof desktopLinks[0], variant: string) => {
@@ -22,13 +22,6 @@ export function Header() {
         <div className="framer-fxw977" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', opacity: '0'}} />
       </>
     );
-    if (item.isAnchor) {
-      return (
-        <a className={linkClass} style={{width: '100%'}} href={item.to} onClick={() => setMenuOpen(false)}>
-          {inner}
-        </a>
-      );
-    }
     return (
       <Link className={linkClass} style={{width: '100%'}} to={item.to} onClick={() => setMenuOpen(false)}>
         {inner}

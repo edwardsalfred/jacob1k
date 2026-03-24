@@ -1,6 +1,6 @@
 // @ts-nocheck
-import React, { useState, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useRef, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './index.css';
 import Particles from './Particles';
 import PortfolioWork from './PortfolioWork';
@@ -10,6 +10,18 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(null);
   const [testimonialIndex, setTestimonialIndex] = useState(0);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.slice(1);
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location.hash]);
+
   return (
     <>
       
