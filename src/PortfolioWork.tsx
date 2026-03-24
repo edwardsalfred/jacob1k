@@ -11,10 +11,11 @@ interface Video {
 }
 
 const vids: Video[] = [
-  { id: 'YOUR_YT_ID_1', title: 'Pestorix', type: '2024', category: 'wedding', duration: '4:32' },
-  { id: 'YOUR_YT_ID_2', title: 'Danzora', type: '2024', category: 'commercial', duration: '2:10' },
-  { id: 'YOUR_YT_ID_3', title: 'Didasko', type: '2024', category: 'event', duration: '3:55' },
-  { id: 'YOUR_YT_ID_4', title: 'Harmonix', type: '2024', category: 'documentary', duration: '8:45' },
+  { id: 'q92hPQwia3c', title: 'Pestorix', type: 'Wedding', category: 'wedding', duration: '1:00' },
+  { id: 'BPNn8ZsB1EM', title: 'Danzora', type: 'Commercial', category: 'commercial', duration: '0:45' },
+  { id: 'd739veB731k', title: 'Didasko', type: 'Event', category: 'event', duration: '0:50' },
+  { id: 'wM5whcn5P8I', title: 'Harmonix', type: 'Documentary', category: 'documentary', duration: '1:30' },
+  { id: 'knHWet8ylNs', title: 'Lumina', type: 'Reel', category: 'reel', duration: '0:15' },
 ];
 
 const PortfolioWork: React.FC = () => {
@@ -22,7 +23,7 @@ const PortfolioWork: React.FC = () => {
   const [activeVid, setActiveVid] = useState<Video | null>(null);
   const [isLightboxActive, setIsLightboxActive] = useState(false);
 
-  const categories = ['all', 'wedding', 'commercial', 'event', 'documentary'];
+  const categories = ['all', 'wedding', 'commercial', 'event', 'documentary', 'reel'];
 
   const filteredVids = vids.filter(v => filter === 'all' || v.category === filter);
 
