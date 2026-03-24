@@ -366,7 +366,7 @@ export default function App() {
                   <div className="ssr-variant hidden-f2wq4l">
                     <div className="framer-nogdgp-container">
                       {/* $ */}
-                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', opacity: '1'}} href="#services">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', opacity: '1'}} href="#projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           See my projects
                         </p>
@@ -378,7 +378,7 @@ export default function App() {
                   <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                     <div className="framer-nogdgp-container">
                       {/* $ */}
-                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', width: '100%', opacity: '1'}} href="#services">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', width: '100%', opacity: '1'}} href="#projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           See my projects
                         </p>
@@ -4612,7 +4612,7 @@ export default function App() {
                       <div className="framer-1nqinf3" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           {/* $ */}
-                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="./projects">                          Projects
+                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="#projects">                          Projects
 </a>
                           {/* /$ */}
                         </p>
@@ -4724,7 +4724,7 @@ export default function App() {
                       <div className="framer-1nqinf3" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           {/* $ */}
-                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="./projects">                          Projects
+                          <a className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" href="#projects">                          Projects
 </a>
                           {/* /$ */}
                         </p>
