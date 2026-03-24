@@ -43,14 +43,19 @@ export function Header() {
             padding: '10px',
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'flex-end',
+            alignItems: 'center',
+            justifyContent: 'center',
             gap: '8px',
+            width: '50px',
+            height: '40px',
+            position: 'relative',
             zIndex: 1100,
           }}
           aria-label="Menu"
         >
-          <span style={{ display: 'block', width: '40px', height: '1.5px', background: 'white', transition: 'all 0.3s', transform: menuOpen ? 'translateY(5px) rotate(45deg)' : 'none' }}></span>
-          <span style={{ display: 'block', width: menuOpen ? '40px' : '28px', height: '1.5px', background: 'white', transition: 'all 0.3s', transform: menuOpen ? 'translateY(-4.5px) rotate(-45deg)' : 'none' }}></span>
+          <span style={{ display: 'block', width: '40px', height: '2px', background: 'rgb(153, 153, 153)', borderRadius: '1000px', transition: 'all 0.3s', transform: menuOpen ? 'translateY(10px) rotate(45deg)' : 'none' }}></span>
+          <span style={{ display: 'block', width: '50px', height: '2px', background: 'rgb(153, 153, 153)', borderRadius: '1000px', transition: 'all 0.3s', opacity: menuOpen ? 0 : 1 }}></span>
+          <span style={{ display: 'block', width: '40px', height: '2px', background: 'rgb(153, 153, 153)', borderRadius: '1000px', transition: 'all 0.3s', transform: menuOpen ? 'translateY(-10px) rotate(-45deg)' : 'none' }}></span>
         </button>
       </header>
 
@@ -60,7 +65,7 @@ export function Header() {
           position: 'fixed',
           inset: 0,
           zIndex: 1050,
-          background: '#000',
+          background: 'rgb(17, 17, 17)',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center',
@@ -86,12 +91,12 @@ export function Header() {
                   href={item.to}
                   onClick={() => setMenuOpen(false)}
                   style={{
-                    color: 'white',
+                    color: 'rgb(153, 153, 153)',
                     textDecoration: 'none',
-                    fontSize: 'clamp(52px, 12vw, 88px)',
-                    fontFamily: '"Instrument Serif", Georgia, serif',
+                    fontSize: '60px',
+                    fontFamily: '"Instrument Serif", "Instrument Serif Placeholder", serif',
                     fontWeight: 400,
-                    lineHeight: 1.1,
+                    lineHeight: 1.2,
                     letterSpacing: '-0.02em',
                     display: 'inline-block',
                   }}
@@ -103,12 +108,12 @@ export function Header() {
                   to={item.to}
                   onClick={() => setMenuOpen(false)}
                   style={{
-                    color: 'white',
+                    color: 'rgb(153, 153, 153)',
                     textDecoration: 'none',
-                    fontSize: 'clamp(52px, 12vw, 88px)',
-                    fontFamily: '"Instrument Serif", Georgia, serif',
+                    fontSize: '60px',
+                    fontFamily: '"Instrument Serif", "Instrument Serif Placeholder", serif',
                     fontWeight: 400,
-                    lineHeight: 1.1,
+                    lineHeight: 1.2,
                     letterSpacing: '-0.02em',
                     display: 'inline-block',
                   }}
