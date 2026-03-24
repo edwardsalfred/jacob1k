@@ -137,7 +137,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="#projects">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="#projects" onClick={() => setMenuOpen(false)}>                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
@@ -227,7 +227,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="#projects">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="#projects" onClick={() => setMenuOpen(false)}>                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
