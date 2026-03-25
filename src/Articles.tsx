@@ -48,18 +48,6 @@ const articles = [
     image: '/surviving-videographer.png',
     link: '/articles/surviving-as-a-videographer-in-2026-crowded-market',
   },
-  {
-    slug: 'designing-for-motion-how-micro-animations-shape-user-experience',
-    title: 'Designing for Motion: How Micro-Animations Shape User Experience',
-    category: 'Design',
-    date: 'Apr 10, 2026',
-    readTime: '4 min read',
-    excerpt:
-      'Learn why micro-animations guide users, improve usability, and boost conversions, plus best practices for timing, performance, and accessibility.',
-    image: 'https://framerusercontent.com/images/2XmQwKSaHgfErm1BpvZyUSJrgs.png',
-    link: '/articles/designing-for-motion-how-micro-animations-shape-user-experience',
-  },
-
 ];
 
 const categories = ['All', 'Design', 'Technology', 'Accessibility', 'Post-Production', 'Cinematography', 'Strategy', 'Production', 'Business'];
