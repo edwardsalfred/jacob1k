@@ -1,4 +1,4 @@
-import { StrictMode, useEffect } from 'react'
+import { StrictMode, useLayoutEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import './index.css'
@@ -14,8 +14,10 @@ import ArticleShootMockumentaryVideos from './ArticleShootMockumentaryVideos.tsx
 import ArticleDesigningForMotion from './ArticleDesigningForMotion.tsx'
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  const { pathname, hash } = useLocation();
+  useLayoutEffect(() => {
+    if (!hash) window.scrollTo(0, 0);
+  }, [pathname, hash]);
   return null;
 }
 
