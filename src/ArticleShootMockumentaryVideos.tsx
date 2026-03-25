@@ -33,7 +33,7 @@ export default function ArticleShootMockumentaryVideos() {
         style={{
           maxWidth: '780px',
           margin: '0 auto',
-          padding: '80px 40px 80px',
+          padding: '120px 40px 80px',
           position: 'relative',
           zIndex: 1,
         }}

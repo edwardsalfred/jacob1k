@@ -58,6 +58,18 @@
 }
 
 
+/* Ensure header nav is always fixed regardless of page wrapper class */
+.framer-1tzjxip-container {
+  position: fixed !important;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  pointer-events: none;
+}
+
 @keyframes marquee-scroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
