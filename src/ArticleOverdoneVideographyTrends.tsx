@@ -33,7 +33,7 @@ export default function ArticleOverdoneVideographyTrends() {
         style={{
           maxWidth: '780px',
           margin: '0 auto',
-          padding: '140px 40px 80px',
+          padding: '80px 40px 80px',
           position: 'relative',
           zIndex: 1,
         }}
