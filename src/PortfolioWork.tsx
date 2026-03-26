@@ -7,7 +7,8 @@ interface Video {
   type: string;
   category: string;
   duration: string;
-  platform?: 'youtube' | 'vimeo' | 'direct';
+  platform?: 'youtube' | 'vimeo' | 'direct' | 'instagram';
+  thumbnail?: string;
 }
 
 const vids: Video[] = [
@@ -16,6 +17,9 @@ const vids: Video[] = [
   { id: 'd739veB731k', title: 'Didasko', type: 'Event', category: 'event', duration: '0:50' },
   { id: 'wM5whcn5P8I', title: 'Harmonix', type: 'Documentary', category: 'documentary', duration: '1:30' },
   { id: 'knHWet8ylNs', title: 'Lumina', type: 'Reel', category: 'reel', duration: '0:15' },
+  { id: 'jAFnOSPZcSo', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30' },
+  { id: 'DRAS4whCWQh', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30', platform: 'instagram' },
+  { id: 'C0FNvxGANJC', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30', platform: 'instagram' },
 ];
 
 const PortfolioWork: React.FC = () => {
@@ -72,17 +76,27 @@ const PortfolioWork: React.FC = () => {
             onClick={() => openLightbox(v)}
           >
             <div className="video-thumb">
-              <img 
-                src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`} 
-                alt={v.title} 
-                loading="lazy" 
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  if (!target.src.includes('0.jpg')) {
-                    target.src = `https://i.ytimg.com/vi/${v.id}/0.jpg`;
-                  }
-                }}
-              />
+              {v.platform === 'instagram' ? (
+                <div className="instagram-thumb-placeholder">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+                  </svg>
+                </div>
+              ) : (
+                <img
+                  src={v.thumbnail || `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+                  alt={v.title}
+                  loading="lazy"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    if (!target.src.includes('0.jpg')) {
+                      target.src = `https://i.ytimg.com/vi/${v.id}/0.jpg`;
+                    }
+                  }}
+                />
+              )}
               <div className="play-overlay">
                 <div className="play-icon">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -104,12 +118,16 @@ const PortfolioWork: React.FC = () => {
         {activeVid && (
           <div className="lightbox-content" onClick={e => e.stopPropagation()}>
             <button className="close-btn" onClick={closeLightbox} aria-label="Close Lightbox">&times;</button>
-            <div className="video-wrapper">
-              <iframe 
-                src={`https://www.youtube.com/embed/${activeVid.id}?autoplay=1&rel=0`}
+            <div className={`video-wrapper${activeVid.platform === 'instagram' ? ' instagram-wrapper' : ''}`}>
+              <iframe
+                src={
+                  activeVid.platform === 'instagram'
+                    ? `https://www.instagram.com/reel/${activeVid.id}/embed`
+                    : `https://www.youtube.com/embed/${activeVid.id}?autoplay=1&rel=0`
+                }
                 title={activeVid.title}
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
