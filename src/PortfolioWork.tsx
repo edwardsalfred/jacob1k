@@ -127,10 +127,6 @@ const PortfolioWork: React.FC = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <div className="lightbox-info">
-              <div className="info-type">{activeVid.type}</div>
-              <h2 className="info-title">{activeVid.title}</h2>
-            </div>
           </div>
         )}
       </div>
