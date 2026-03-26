@@ -110,10 +110,6 @@ const PortfolioWork: React.FC = () => {
               </div>
               <div className="duration-tag">{v.duration}</div>
             </div>
-            <div className="video-info">
-              <div className="video-type">{v.type}</div>
-              <h3 className="video-title">{v.title}</h3>
-            </div>
           </div>
         ))}
       </div>
