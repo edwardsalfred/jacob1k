@@ -32,6 +32,10 @@ const PortfolioWork: React.FC = () => {
   const filteredVids = vids.filter(v => filter === 'all' || v.category === filter);
 
   const openLightbox = (v: Video) => {
+    if (v.platform === 'instagram') {
+      window.open(`https://www.instagram.com/reel/${v.id}/`, '_blank', 'noopener,noreferrer');
+      return;
+    }
     setActiveVid(v);
     setIsLightboxActive(true);
     document.body.style.overflow = 'hidden';
@@ -118,13 +122,9 @@ const PortfolioWork: React.FC = () => {
         {activeVid && (
           <div className="lightbox-content" onClick={e => e.stopPropagation()}>
             <button className="close-btn" onClick={closeLightbox} aria-label="Close Lightbox">&times;</button>
-            <div className={`video-wrapper${activeVid.platform === 'instagram' ? ' instagram-wrapper' : ''}`}>
+            <div className="video-wrapper">
               <iframe
-                src={
-                  activeVid.platform === 'instagram'
-                    ? `https://www.instagram.com/reel/${activeVid.id}/embed`
-                    : `https://www.youtube.com/embed/${activeVid.id}?autoplay=1&rel=0`
-                }
+                src={`https://www.youtube.com/embed/${activeVid.id}?autoplay=1&rel=0`}
                 title={activeVid.title}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
