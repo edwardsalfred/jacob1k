@@ -60,17 +60,6 @@ const PortfolioWork: React.FC = () => {
     <div className="work-root">
       <div className="section-label">Projects</div>
       
-      <div className="filters">
-        {categories.map(cat => (
-          <button 
-            key={cat}
-            className={`filter-btn ${filter === cat ? 'active' : ''}`}
-            onClick={() => setFilter(cat)}
-          >
-            {cat.charAt(0).toUpperCase() + cat.slice(1)}
-          </button>
-        ))}
-      </div>
 
       <div className="video-grid">
         {filteredVids.map((v, i) => (
