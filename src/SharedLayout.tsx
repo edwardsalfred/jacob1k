@@ -150,13 +150,13 @@ export function Footer() {
           </p>
 
           {/* Links */}
-          <div style={{ display: 'flex', gap: '40px', marginTop: '20px' }}>
+          <div className="footer-nav-links" style={{ display: 'flex', gap: '40px', marginTop: '20px' }}>
             <Link to="/" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Home</Link>
             <Link to="/articles" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Articles</Link>
             <Link to="/#projects" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Projects</Link>
           </div>
 
-          <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', marginTop: '40px', marginBottom: '40px' }}>
+          <div className="footer-bottom-links" style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', marginTop: '40px', marginBottom: '40px' }}>
             <span style={{ color: 'rgba(153,153,153,0.7)', fontSize: '14px', fontWeight: 500, fontFamily: '"Inter", sans-serif' }}>
               © 2026 Jacob1K. All rights reserved.
             </span>
@@ -224,6 +224,14 @@ export function Footer() {
         @media (max-width: 800px) {
           .custom-footer-grid {
             grid-template-columns: 1fr !important;
+          }
+          .footer-nav-links {
+            flex-direction: column !important;
+            gap: 16px !important;
+          }
+          .footer-bottom-links {
+            flex-direction: column !important;
+            gap: 10px !important;
           }
         }
       `}</style>
