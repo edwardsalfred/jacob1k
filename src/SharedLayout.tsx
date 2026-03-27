@@ -150,7 +150,7 @@ export function Footer() {
           </p>
 
           {/* Links */}
-          <div className="footer-nav-links" style={{ display: 'flex', gap: '40px', marginTop: '20px' }}>
+          <div className="footer-nav-links" style={{ display: 'flex', gap: '40px' }}>
             <Link to="/" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Home</Link>
             <Link to="/articles" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Articles</Link>
             <Link to="/#projects" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Projects</Link>
@@ -191,7 +191,7 @@ export function Footer() {
              width: '100%',
              filter: 'drop-shadow(0px 4px 6px rgba(0,0,0,0.5))'
            }}>
-             <h3 style={{
+             <h3 className="footer-cta-heading" style={{
                fontFamily: '"Instrument Serif", Georgia, serif',
                fontSize: 'clamp(32px, 4vw, 42px)',
                fontWeight: 400,
@@ -224,14 +224,20 @@ export function Footer() {
         @media (max-width: 800px) {
           .custom-footer-grid {
             grid-template-columns: 1fr !important;
+            gap: 32px !important;
           }
           .footer-nav-links {
             flex-direction: column !important;
             gap: 16px !important;
+            margin-top: 0 !important;
           }
           .footer-bottom-links {
             flex-direction: column !important;
             gap: 10px !important;
+            margin-top: 20px !important;
+          }
+          .footer-cta-heading {
+            font-size: 28px !important;
           }
         }
       `}</style>
