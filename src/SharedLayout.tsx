@@ -117,14 +117,7 @@ export function Footer() {
       }}
     >
       <div
-        style={{
-          maxWidth: '1200px',
-          width: '100%',
-          display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
-          gap: '60px',
-          alignItems: 'flex-start',
-        }}
+        style={{ maxWidth: '1200px', width: '100%' }}
         className="custom-footer-grid"
       >
         {/* Left Column */}
@@ -220,27 +213,6 @@ export function Footer() {
            </div>
         </div>
       </div>
-      <style>{`
-        @media (max-width: 800px) {
-          .custom-footer-grid {
-            grid-template-columns: 1fr !important;
-            gap: 32px !important;
-          }
-          .footer-nav-links {
-            flex-direction: column !important;
-            gap: 16px !important;
-            margin-top: 0 !important;
-          }
-          .footer-bottom-links {
-            flex-direction: column !important;
-            gap: 10px !important;
-            margin-top: 20px !important;
-          }
-          .footer-cta-heading {
-            font-size: 28px !important;
-          }
-        }
-      `}</style>
     </footer>
   );
 }
