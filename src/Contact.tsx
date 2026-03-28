@@ -23,7 +23,7 @@ export default function Contact() {
   }
 
   return (
-    <div style={{
+    <div id="main-content" style={{
       minHeight: '100vh',
       background: '#000',
       display: 'flex',
@@ -63,12 +63,12 @@ export default function Contact() {
 
         {sent ? (
           <div style={{ textAlign: 'center', color: 'white' }}>
-            <h1 style={{
+            <h2 style={{
               fontFamily: '"Instrument Serif", Georgia, serif',
               fontSize: 'clamp(40px, 8vw, 64px)',
               fontWeight: 400, margin: '0 0 20px',
               color: 'white',
-            }}>Message sent!</h1>
+            }}>Message sent!</h2>
             <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '16px' }}>
               I'll reply within one business day.
             </p>
@@ -103,13 +103,14 @@ export default function Contact() {
 
               {/* Name */}
               <div>
-                <label style={{ display: 'block', color: 'rgba(255,255,255,0.75)', fontSize: '14px', marginBottom: '8px' }}>
+                <label htmlFor="contact-name" style={{ display: 'block', color: 'rgba(255,255,255,0.75)', fontSize: '14px', marginBottom: '8px' }}>
                   Name*
                 </label>
                 <input
-                  name="name" type="text" required
+                  id="contact-name" name="name" type="text" required
                   placeholder="Jane Smith"
                   value={form.name} onChange={handleChange}
+                  className="contact-input"
                   style={{
                     width: '100%', boxSizing: 'border-box',
                     background: 'rgb(30,30,30)',
@@ -124,13 +125,14 @@ export default function Contact() {
 
               {/* Email */}
               <div>
-                <label style={{ display: 'block', color: 'rgba(255,255,255,0.75)', fontSize: '14px', marginBottom: '8px' }}>
+                <label htmlFor="contact-email" style={{ display: 'block', color: 'rgba(255,255,255,0.75)', fontSize: '14px', marginBottom: '8px' }}>
                   Email*
                 </label>
                 <input
-                  name="email" type="email" required
+                  id="contact-email" name="email" type="email" required
                   placeholder="jane@email.com"
                   value={form.email} onChange={handleChange}
+                  className="contact-input"
                   style={{
                     width: '100%', boxSizing: 'border-box',
                     background: 'rgb(30,30,30)',
@@ -145,14 +147,15 @@ export default function Contact() {
 
               {/* Message */}
               <div>
-                <label style={{ display: 'block', color: 'rgba(255,255,255,0.75)', fontSize: '14px', marginBottom: '8px' }}>
+                <label htmlFor="contact-message" style={{ display: 'block', color: 'rgba(255,255,255,0.75)', fontSize: '14px', marginBottom: '8px' }}>
                   Message*
                 </label>
                 <textarea
-                  name="message" required
+                  id="contact-message" name="message" required
                   placeholder="Write here..."
                   value={form.message} onChange={handleChange}
                   rows={6}
+                  className="contact-input"
                   style={{
                     width: '100%', boxSizing: 'border-box',
                     background: 'rgb(30,30,30)',

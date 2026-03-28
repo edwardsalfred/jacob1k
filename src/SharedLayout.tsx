@@ -35,6 +35,11 @@ export function Header() {
         className={`framer-26mG5 framer-1i3853m ${menuOpen ? 'framer-v-j0njfn' : 'framer-v-1i3853m'}`}
         style={{height: '100%', width: '100%', cursor: 'pointer'}}
         onClick={() => setMenuOpen(o => !o)}
+        role="button"
+        tabIndex={0}
+        aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+        aria-expanded={menuOpen}
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setMenuOpen(o => !o); } }}
       >
         <div className="framer-1j0133v" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderRadius: '1000px', transform: 'none'}} />
         <div className="framer-l6qwvu" style={{backgroundColor: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', borderRadius: '1000px'}} />

@@ -57,21 +57,25 @@ const PortfolioWork: React.FC = () => {
   }, []);
 
   return (
-    <div className="work-root">
-      <div className="section-label">Projects</div>
+    <section className="work-root" aria-label="Projects">
+      <div className="section-label" aria-hidden="true">Projects</div>
       
 
       <div className="video-grid">
         {filteredVids.map((v, i) => (
-          <div 
+          <div
             key={v.title + i}
             className={`video-card ${i === 0 ? 'wide' : ''}`}
             onClick={() => openLightbox(v)}
+            role="button"
+            tabIndex={0}
+            aria-label={`Play ${v.title} — ${v.type}`}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(v); } }}
           >
             <div className="video-thumb">
               {v.platform === 'instagram' ? (
                 <div className="instagram-thumb-placeholder">
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                     <circle cx="12" cy="12" r="4"></circle>
                     <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
@@ -92,7 +96,7 @@ const PortfolioWork: React.FC = () => {
               )}
               <div className="play-overlay">
                 <div className="play-icon">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <polygon points="5 3 19 12 5 21 5 3"></polygon>
                   </svg>
                 </div>
@@ -119,7 +123,7 @@ const PortfolioWork: React.FC = () => {
           </div>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

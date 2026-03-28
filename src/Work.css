@@ -82,6 +82,11 @@
   border-color: var(--borderh, rgba(255,255,255,0.13));
 }
 
+.video-card:focus-visible {
+  outline: 2px solid rgba(255,255,255,0.6);
+  outline-offset: 2px;
+}
+
 .video-thumb {
   position: relative;
   width: 100%;
