@@ -214,13 +214,14 @@
 }
 
 /* Fix mobile footer nav grid — prevent rows from stretching */
-.framer-v-6dhke6 .framer-1e4ujir {
+.framer-9yKWY.framer-v-6dhke6 .framer-1e4ujir {
   grid-auto-rows: auto !important;
   grid-template-rows: auto !important;
   row-gap: 16px !important;
+  height: auto !important;
 }
 
-.framer-v-6dhke6 .framer-1svxqbp {
+.framer-9yKWY.framer-v-6dhke6 .framer-1svxqbp {
   gap: 32px !important;
 }
 

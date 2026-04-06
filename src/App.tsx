@@ -4814,7 +4814,7 @@ export default function App() {
             <footer className="framer-9yKWY framer-z8xZJ framer-3HVtM framer-u9Eok framer-pec35 framer-Cmb46 framer-15bkvbd framer-v-6dhke6" data-framer-name="Mobile" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', width: '100%'}}>
               <div className="framer-1o40squ" data-framer-name="content">
                 <div className="framer-1x3qpm0" data-framer-name="wrapper">
-                  <div className="framer-1svxqbp" data-framer-name="wrapper">
+                  <div className="framer-1svxqbp" data-framer-name="wrapper" style={{gap: '32px'}}>
                     <div className="framer-6yqgdw" data-framer-name="wrapper">
                       <div className="framer-1qy5f1n-container">
                         {/* $ */}
@@ -4828,7 +4828,7 @@ export default function App() {
                         </p>
                       </div>
                     </div>
-                    <nav className="framer-1e4ujir" data-framer-name="nav">
+                    <nav className="framer-1e4ujir" data-framer-name="nav" style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gridAutoRows: 'auto', gridTemplateRows: 'auto', rowGap: '16px', columnGap: '16px', height: 'auto'}}>
                       <div className="framer-1qt6x2a" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           {/* $ */}
