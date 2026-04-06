@@ -265,14 +265,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l">
                 <div className="framer-1a7qf8j">
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 600px, (min-width: 810px) and (max-width: 1199px) 600px, (max-width: 809px) 390px" src="/Jacob_Front_Image-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="600px" />
+                    <video autoPlay loop muted playsInline src="/JacobHeroVideoFinal.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} />
                   </div>
                 </div>
               </div>
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-1a7qf8j">
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 600px, (min-width: 810px) and (max-width: 1199px) 600px, (max-width: 809px) 390px" src="/Jacob_Front_Image-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="390px" />
+                    <video autoPlay loop muted playsInline src="/JacobHeroVideoFinal.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} />
                   </div>
                 </div>
               </div>
