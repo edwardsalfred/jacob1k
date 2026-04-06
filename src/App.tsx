@@ -265,14 +265,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l">
                 <div className="framer-1a7qf8j">
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 600px, (min-width: 810px) and (max-width: 1199px) 600px, (max-width: 809px) 390px" srcset="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png?scale-down-to=1024 649w,https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png 974w" src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="600px" />
+                    <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 600px, (min-width: 810px) and (max-width: 1199px) 600px, (max-width: 809px) 390px" src="/Jacob_Front_Image-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="600px" />
                   </div>
                 </div>
               </div>
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-1a7qf8j">
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 600px, (min-width: 810px) and (max-width: 1199px) 600px, (max-width: 809px) 390px" srcset="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png?scale-down-to=1024 649w,https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png 974w" src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="390px" />
+                    <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 600px, (min-width: 810px) and (max-width: 1199px) 600px, (max-width: 809px) 390px" src="/Jacob_Front_Image-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="390px" />
                   </div>
                 </div>
               </div>
@@ -4672,7 +4672,7 @@ export default function App() {
                 <div className="framer-ojgt7v" data-framer-name="wrapper">
                   <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
                     <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" srcset="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png?scale-down-to=1024 649w,https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png 974w" src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
+                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" src="/Jacob_Front_Image-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
@@ -4784,7 +4784,7 @@ export default function App() {
                 <div className="framer-ojgt7v" data-framer-name="wrapper">
                   <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
                     <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" srcset="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png?scale-down-to=1024 649w,https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png 974w" src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
+                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" src="/Jacob_Front_Image-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
@@ -4896,7 +4896,7 @@ export default function App() {
                 <div className="framer-ojgt7v" data-framer-name="wrapper">
                   <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
                     <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" srcset="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png?scale-down-to=1024 649w,https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png 974w" src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
+                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" src="/Jacob_Front_Image-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">

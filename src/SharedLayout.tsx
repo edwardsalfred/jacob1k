@@ -167,7 +167,7 @@ export function Footer() {
         <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
            <div style={{ width: '100%', maxWidth: '300px', margin: '0 auto', position: 'relative' }}>
              <img
-               src="https://framerusercontent.com/images/mm2HPmLVegqI6QSbsK2t3Ls2hnY.png"
+               src="/Jacob_Front_Image-removebg-preview.png"
                alt="Jacob"
                style={{
                  width: '100%',
