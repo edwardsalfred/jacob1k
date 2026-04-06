@@ -213,8 +213,15 @@
   }
 }
 
-/* Remove white line artifact from hero video container */
-.framer-SE1iI .framer-1a7qf8j,
+/* Hero video container - blend with particle background and soft edges */
+.framer-SE1iI .framer-1a7qf8j {
+  border: 0 !important;
+  outline: none !important;
+  mix-blend-mode: screen !important;
+  -webkit-mask: radial-gradient(ellipse 85% 90% at 50% 60%, black 40%, transparent 100%) !important;
+  mask: radial-gradient(ellipse 85% 90% at 50% 60%, black 40%, transparent 100%) !important;
+}
+
 .framer-SE1iI .framer-1a7qf8j > div {
   border: 0 !important;
   outline: none !important;
