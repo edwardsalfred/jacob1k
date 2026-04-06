@@ -4673,7 +4673,7 @@ export default function App() {
                 <div className="framer-ojgt7v" data-framer-name="wrapper">
                   <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
                     <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
+                      <img decoding="async" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center bottom', objectFit: 'contain'}} draggable="false" />
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
@@ -4786,7 +4786,7 @@ export default function App() {
                 <div className="framer-ojgt7v" data-framer-name="wrapper">
                   <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
                     <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
+                      <img decoding="async" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center bottom', objectFit: 'contain'}} draggable="false" />
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
@@ -4899,7 +4899,7 @@ export default function App() {
                 <div className="framer-ojgt7v" data-framer-name="wrapper">
                   <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
                     <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                      <img decoding="async" width="974" height="1536" sizes="(min-width: 1200px) 250px, (min-width: 810px) and (max-width: 1199px) 250px, (max-width: 809px) 250px" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} draggable="false" data-framer-original-sizes="250px" />
+                      <img decoding="async" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center bottom', objectFit: 'contain'}} draggable="false" />
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
