@@ -4655,10 +4655,10 @@ export default function App() {
                       </div>
                     </nav>
                   </div>
-                  <div className="framer-1icw2us" data-framer-name="wrapper">
-                    <div className="framer-5q20tc-container">
+                  <div className="framer-1icw2us" data-framer-name="wrapper" style={{overflow: 'visible', height: 'auto', flexWrap: 'wrap'}}>
+                    <div className="framer-5q20tc-container" style={{width: '100%'}}>
                       {/* $ */}
-                      <div style={{display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'wrap'}}>
+                      <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
                         <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>
                           © 2026 Jacob1K. All rights reserved.
                         </div>
@@ -4768,10 +4768,10 @@ export default function App() {
                       </div>
                     </nav>
                   </div>
-                  <div className="framer-1icw2us" data-framer-name="wrapper">
-                    <div className="framer-5q20tc-container">
+                  <div className="framer-1icw2us" data-framer-name="wrapper" style={{overflow: 'visible', height: 'auto', flexWrap: 'wrap'}}>
+                    <div className="framer-5q20tc-container" style={{width: '100%'}}>
                       {/* $ */}
-                      <div style={{display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'wrap'}}>
+                      <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
                         <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>
                           © 2026 Jacob1K. All rights reserved.
                         </div>
@@ -4881,10 +4881,10 @@ export default function App() {
                       </div>
                     </nav>
                   </div>
-                  <div className="framer-1icw2us" data-framer-name="wrapper">
-                    <div className="framer-5q20tc-container">
+                  <div className="framer-1icw2us" data-framer-name="wrapper" style={{overflow: 'visible', height: 'auto', flexWrap: 'wrap'}}>
+                    <div className="framer-5q20tc-container" style={{width: '100%'}}>
                       {/* $ */}
-                      <div style={{display: 'flex', alignItems: 'center', gap: '24px', flexWrap: 'wrap'}}>
+                      <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
                         <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>
                           © 2026 Jacob1K. All rights reserved.
                         </div>
