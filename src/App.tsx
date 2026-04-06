@@ -4664,6 +4664,7 @@ export default function App() {
                         </div>
                         <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
                         <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
+                        <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
                       </div>
                       {/* /$ */}
                     </div>
@@ -4776,6 +4777,7 @@ export default function App() {
                         </div>
                         <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
                         <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
+                        <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
                       </div>
                       {/* /$ */}
                     </div>
@@ -4888,6 +4890,7 @@ export default function App() {
                         </div>
                         <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
                         <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
+                        <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
                       </div>
                       {/* /$ */}
                     </div>
