@@ -213,6 +213,17 @@
   }
 }
 
+/* Fix mobile footer bottom bar clipping wrapped items */
+.framer-9yKWY.framer-v-6dhke6 .framer-1icw2us {
+  overflow: visible !important;
+  height: auto !important;
+  flex-wrap: wrap !important;
+}
+
+.framer-9yKWY.framer-v-6dhke6 .framer-5q20tc-container {
+  width: 100% !important;
+}
+
 /* Fix mobile footer nav grid — prevent rows from stretching */
 .framer-9yKWY.framer-v-6dhke6 .framer-1e4ujir {
   grid-auto-rows: auto !important;
