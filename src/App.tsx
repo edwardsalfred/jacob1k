@@ -265,14 +265,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l">
                 <div className="framer-1a7qf8j">
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                    <video autoPlay loop muted playsInline preload="auto" src="/jacobhoodiefinalvideo.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} />
+                    <video autoPlay loop muted playsInline preload="auto" src="/jacobhoodiefinalvideo.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover', mixBlendMode: 'screen', border: 0, outline: 'none'}} />
                   </div>
                 </div>
               </div>
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-1a7qf8j">
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
-                    <video autoPlay loop muted playsInline preload="auto" src="/jacobhoodiefinalvideo.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover'}} />
+                    <video autoPlay loop muted playsInline preload="auto" src="/jacobhoodiefinalvideo.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover', mixBlendMode: 'screen', border: 0, outline: 'none'}} />
                   </div>
                 </div>
               </div>

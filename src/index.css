@@ -213,6 +213,13 @@
   }
 }
 
+/* Remove white line artifact from hero video container */
+.framer-SE1iI .framer-1a7qf8j,
+.framer-SE1iI .framer-1a7qf8j > div {
+  border: 0 !important;
+  outline: none !important;
+}
+
 /* Fix mobile footer bottom bar clipping wrapped items */
 .framer-9yKWY.framer-v-6dhke6 .framer-1icw2us {
   overflow: visible !important;
