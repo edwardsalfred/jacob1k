@@ -287,7 +287,7 @@ export default function App() {
                     <div className="framer-1p5hqfu-container">
                       <div className="framer-KC7jT framer-ujTCN framer-w0owup framer-v-w0owup" data-framer-name="First" data-highlight="true" style={{height: '100%', width: '100%'}}>
                         <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
-                          <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
+                          <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': '#32F60F'}}>
                             VIDEOGRAPHER.
                           </p>
                         </div>
@@ -308,7 +308,7 @@ export default function App() {
                     <div className="framer-1p5hqfu-container">
                       <div className="framer-KC7jT framer-ujTCN framer-w0owup framer-v-w0owup" data-framer-name="First" data-highlight="true" style={{height: '100%', width: '100%'}}>
                         <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
-                          <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
+                          <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': '#32F60F'}}>
                             VIDEOGRAPHER.
                           </p>
                         </div>
@@ -329,7 +329,7 @@ export default function App() {
                     <div className="framer-1p5hqfu-container">
                       <div className="framer-KC7jT framer-ujTCN framer-w0owup framer-v-w0owup" data-framer-name="First" data-highlight="true" style={{height: '100%', width: '100%'}}>
                         <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
-                          <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
+                          <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': '#32F60F'}}>
                             VIDEOGRAPHER.
                           </p>
                         </div>
