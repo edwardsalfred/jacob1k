@@ -111,7 +111,7 @@ export function Footer() {
   return (
     <>
       {/* Desktop */}
-      <div className="ssr-variant hidden-1jw10ax hidden-he6zob" style={{width: '100%'}}>
+      <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l" style={{width: '100%'}}>
         <footer className="framer-9yKWY framer-z8xZJ framer-3HVtM framer-u9Eok framer-pec35 framer-Cmb46 framer-15bkvbd framer-v-15bkvbd" data-framer-name="Desktop" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', width: '100%'}}>
           <div className="framer-1o40squ" data-framer-name="content">
             <div className="framer-1x3qpm0" data-framer-name="wrapper">
