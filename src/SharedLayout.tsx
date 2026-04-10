@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
@@ -108,107 +109,259 @@ export function Header() {
 
 export function Footer() {
   return (
-    <footer
-      style={{
-        background: '#000',
-        position: 'relative',
-        zIndex: 1,
-        padding: '60px 4% 0',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        overflow: 'hidden',
-        borderTop: '1px solid rgba(153,153,153,0.12)',
-      }}
-    >
-      <div
-        style={{ maxWidth: '1200px', width: '100%' }}
-        className="custom-footer-grid"
-      >
-        {/* Left Column */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '40px', paddingTop: '20px' }}>
-          {/* Logo */}
-          <Link to="/">
-            <img
-              src="/latestjacob-removebg-preview.png"
-            style={{ height: '80px', width: 'auto', display: 'block' }}
-          />
-          </Link>
-
-          {/* Description */}
-          <p style={{
-            color: 'rgba(153,153,153,0.85)',
-            fontSize: '15px',
-            lineHeight: 1.6,
-            maxWidth: '380px',
-            margin: 0,
-            fontFamily: '"Inter", sans-serif'
-          }}>
-            Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
-          </p>
-
-          {/* Links */}
-          <div className="footer-nav-links" style={{ display: 'flex', gap: '40px' }}>
-            <Link to="/" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Home</Link>
-            <Link to="/articles" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Articles</Link>
-            <Link to="/#projects" style={{ color: 'white', textDecoration: 'none', fontSize: '15px', fontWeight: 600, fontFamily: '"Inter", sans-serif' }}>Projects</Link>
+    <>
+      {/* Desktop */}
+      <div className="ssr-variant hidden-1jw10ax hidden-he6zob" style={{width: '100%'}}>
+        <footer className="framer-9yKWY framer-z8xZJ framer-3HVtM framer-u9Eok framer-pec35 framer-Cmb46 framer-15bkvbd framer-v-15bkvbd" data-framer-name="Desktop" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', width: '100%'}}>
+          <div className="framer-1o40squ" data-framer-name="content">
+            <div className="framer-1x3qpm0" data-framer-name="wrapper">
+              <div className="framer-1svxqbp" data-framer-name="wrapper">
+                <div className="framer-6yqgdw" data-framer-name="wrapper">
+                  <div className="framer-1qy5f1n-container">
+                    <Link to="/"><img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '76px', width: 'auto', display: 'block'}} /></Link>
+                  </div>
+                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
+                      Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
+                    </p>
+                  </div>
+                </div>
+                <nav className="framer-1e4ujir" data-framer-name="nav">
+                  <div className="framer-1qt6x2a" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/">Home</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1220l8p" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/articles">Articles</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1nqinf3" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/#projects">Projects</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1xoirvh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/contact">Contact</Link>
+                    </p>
+                  </div>
+                  <div className="framer-11b4dvx" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/privacy">Privacy</Link>
+                    </p>
+                  </div>
+                  <div className="framer-y072jz" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/terms">Terms</Link>
+                    </p>
+                  </div>
+                </nav>
+              </div>
+              <div className="framer-1icw2us" data-framer-name="wrapper" style={{overflow: 'visible', height: 'auto', flexWrap: 'wrap'}}>
+                <div className="framer-5q20tc-container" style={{width: '100%'}}>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
+                    <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>© 2026 Jacob1K. All rights reserved.</div>
+                    <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
+                    <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
+                    <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="framer-ojgt7v" data-framer-name="wrapper">
+              <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
+                <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
+                  <img decoding="async" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center 20%', objectFit: 'contain'}} draggable="false" />
+                </div>
+              </div>
+              <div className="framer-1ex5l0u" data-framer-name="wrapper">
+                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                  <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
+                    Let's build your next big thing
+                  </h3>
+                </div>
+                <div className="framer-xidy4q-container">
+                  <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">
+                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>Start your project</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div className="footer-bottom-links" style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', marginTop: '40px', marginBottom: '40px' }}>
-            <span style={{ color: 'rgba(153,153,153,0.7)', fontSize: '14px', fontWeight: 500, fontFamily: '"Inter", sans-serif' }}>
-              © 2026 Jacob1K. All rights reserved.
-            </span>
-            <Link to="/privacy" style={{ color: 'rgba(153,153,153,0.7)', fontSize: '14px', fontWeight: 500, textDecoration: 'none', fontFamily: '"Inter", sans-serif' }}>Privacy Policy</Link>
-            <Link to="/terms" style={{ color: 'rgba(153,153,153,0.7)', fontSize: '14px', fontWeight: 500, textDecoration: 'none', fontFamily: '"Inter", sans-serif' }}>Terms of Service</Link>
-          </div>
-        </div>
-
-        {/* Right Column */}
-        <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h3 className="footer-cta-heading" style={{
-            fontFamily: '"Instrument Serif", Georgia, serif',
-            fontSize: 'clamp(28px, 3.5vw, 42px)',
-            fontWeight: 400,
-            color: 'white',
-            margin: '0 0 24px',
-            letterSpacing: '-0.01em',
-            textAlign: 'center',
-            filter: 'drop-shadow(0px 4px 6px rgba(0,0,0,0.5))'
-          }}>
-            Let's build your next big thing
-          </h3>
-          <Link
-            to="/contact"
-            style={{
-              display: 'inline-block',
-              background: 'white',
-              color: 'black',
-              textDecoration: 'none',
-              padding: '16px 32px',
-              borderRadius: '100px',
-              fontSize: '16px',
-              fontWeight: 500,
-              fontFamily: '"Inter", sans-serif',
-              marginBottom: '32px'
-            }}
-          >
-            Start your project
-          </Link>
-          <div style={{ width: '100%', maxWidth: '420px', margin: '0 auto' }}>
-            <img
-              src="/jacobwiththehoodie-removebg-preview.png"
-              alt="Jacob"
-              style={{
-                width: '100%',
-                height: 'auto',
-                display: 'block',
-                maskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 30%, rgba(0,0,0,1) 60%)',
-                WebkitMaskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 30%, rgba(0,0,0,1) 60%)'
-              }}
-            />
-          </div>
-        </div>
+        </footer>
       </div>
-    </footer>
+      {/* Tablet */}
+      <div className="ssr-variant hidden-1jw10ax hidden-he6zob" style={{width: '100%'}}>
+        <footer className="framer-9yKWY framer-z8xZJ framer-3HVtM framer-u9Eok framer-pec35 framer-Cmb46 framer-15bkvbd framer-v-k2e729" data-framer-name="Tablet" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', width: '100%'}}>
+          <div className="framer-1o40squ" data-framer-name="content">
+            <div className="framer-1x3qpm0" data-framer-name="wrapper">
+              <div className="framer-1svxqbp" data-framer-name="wrapper">
+                <div className="framer-6yqgdw" data-framer-name="wrapper">
+                  <div className="framer-1qy5f1n-container">
+                    <Link to="/"><img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '76px', width: 'auto', display: 'block'}} /></Link>
+                  </div>
+                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
+                      Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
+                    </p>
+                  </div>
+                </div>
+                <nav className="framer-1e4ujir" data-framer-name="nav">
+                  <div className="framer-1qt6x2a" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/">Home</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1220l8p" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/articles">Articles</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1nqinf3" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/#projects">Projects</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1xoirvh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/contact">Contact</Link>
+                    </p>
+                  </div>
+                  <div className="framer-11b4dvx" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/privacy">Privacy</Link>
+                    </p>
+                  </div>
+                  <div className="framer-y072jz" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/terms">Terms</Link>
+                    </p>
+                  </div>
+                </nav>
+              </div>
+              <div className="framer-1icw2us" data-framer-name="wrapper" style={{overflow: 'visible', height: 'auto', flexWrap: 'wrap'}}>
+                <div className="framer-5q20tc-container" style={{width: '100%'}}>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
+                    <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>© 2026 Jacob1K. All rights reserved.</div>
+                    <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
+                    <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
+                    <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="framer-ojgt7v" data-framer-name="wrapper">
+              <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
+                <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
+                  <img decoding="async" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center 20%', objectFit: 'contain'}} draggable="false" />
+                </div>
+              </div>
+              <div className="framer-1ex5l0u" data-framer-name="wrapper">
+                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                  <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
+                    Let's build your next big thing
+                  </h3>
+                </div>
+                <div className="framer-xidy4q-container">
+                  <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">
+                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>Start your project</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      {/* Mobile */}
+      <div className="ssr-variant hidden-1rtwx6s hidden-he6zob" style={{width: '100%'}}>
+        <footer className="framer-9yKWY framer-z8xZJ framer-3HVtM framer-u9Eok framer-pec35 framer-Cmb46 framer-15bkvbd framer-v-6dhke6" data-framer-name="Mobile" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', width: '100%'}}>
+          <div className="framer-1o40squ" data-framer-name="content">
+            <div className="framer-1x3qpm0" data-framer-name="wrapper">
+              <div className="framer-1svxqbp" data-framer-name="wrapper" style={{gap: '32px'}}>
+                <div className="framer-6yqgdw" data-framer-name="wrapper">
+                  <div className="framer-1qy5f1n-container">
+                    <Link to="/"><img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '76px', width: 'auto', display: 'block'}} /></Link>
+                  </div>
+                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL" style={{'--framer-text-alignment': 'left'}}>
+                      Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
+                    </p>
+                  </div>
+                </div>
+                <nav className="framer-1e4ujir" data-framer-name="nav" style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gridAutoRows: 'auto', gridTemplateRows: 'auto', rowGap: '16px', columnGap: '16px', height: 'auto'}}>
+                  <div className="framer-1qt6x2a" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/">Home</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1220l8p" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/articles">Articles</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1nqinf3" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/#projects">Projects</Link>
+                    </p>
+                  </div>
+                  <div className="framer-1xoirvh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/contact">Contact</Link>
+                    </p>
+                  </div>
+                  <div className="framer-11b4dvx" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/privacy">Privacy</Link>
+                    </p>
+                  </div>
+                  <div className="framer-y072jz" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
+                      <Link className="framer-text framer-styles-preset-1c6ncnn" data-styles-preset="vvwkuHhz5" to="/terms">Terms</Link>
+                    </p>
+                  </div>
+                </nav>
+              </div>
+              <div className="framer-1icw2us" data-framer-name="wrapper" style={{overflow: 'visible', height: 'auto', flexWrap: 'wrap'}}>
+                <div className="framer-5q20tc-container" style={{width: '100%'}}>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
+                    <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>© 2026 Jacob1K. All rights reserved.</div>
+                    <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
+                    <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
+                    <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="framer-ojgt7v" data-framer-name="wrapper">
+              <div className="framer-1t98eli" style={{mask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add', WebkitMask: 'linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%) add'}}>
+                <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
+                  <img decoding="async" src="/jacobwiththehoodie-removebg-preview.png" alt="" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center 20%', objectFit: 'contain'}} draggable="false" />
+                </div>
+              </div>
+              <div className="framer-1ex5l0u" data-framer-name="wrapper">
+                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                  <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
+                    Let's build your next big thing
+                  </h3>
+                </div>
+                <div className="framer-xidy4q-container">
+                  <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', width: '100%', opacity: '1'}} to="/contact">
+                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>Start your project</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </>
   );
 }
