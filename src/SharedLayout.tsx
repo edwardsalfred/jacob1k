@@ -165,57 +165,48 @@ export function Footer() {
 
         {/* Right Column */}
         <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-           <div style={{ width: '100%', maxWidth: '300px', margin: '0 auto', position: 'relative' }}>
-             <img
-               src="/jacobwiththehoodie-removebg-preview.png"
-               alt="Jacob"
-               style={{
-                 width: '100%',
-                 height: 'auto',
-                 display: 'block',
-                 maskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 80%)',
-                 WebkitMaskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 80%)'
-               }}
-             />
-           </div>
-
-           <div style={{
-             position: 'absolute',
-             top: '55%',
-             left: '50%',
-             transform: 'translate(-50%, -50%)',
-             zIndex: 3,
-             textAlign: 'center',
-             width: '100%',
-             filter: 'drop-shadow(0px 4px 6px rgba(0,0,0,0.5))'
-           }}>
-             <h3 className="footer-cta-heading" style={{
-               fontFamily: '"Instrument Serif", Georgia, serif',
-               fontSize: 'clamp(32px, 4vw, 42px)',
-               fontWeight: 400,
-               color: 'white',
-               margin: '0 0 24px',
-               letterSpacing: '-0.01em'
-             }}>
-               Let's build your next big thing
-             </h3>
-             <Link
-               to="/contact"
-               style={{
-                 display: 'inline-block',
-                 background: 'white',
-                 color: 'black',
-                 textDecoration: 'none',
-                 padding: '16px 32px',
-                 borderRadius: '100px',
-                 fontSize: '16px',
-                 fontWeight: 500,
-                 fontFamily: '"Inter", sans-serif'
-               }}
-             >
-               Start your project
-             </Link>
-           </div>
+          <h3 className="footer-cta-heading" style={{
+            fontFamily: '"Instrument Serif", Georgia, serif',
+            fontSize: 'clamp(28px, 3.5vw, 42px)',
+            fontWeight: 400,
+            color: 'white',
+            margin: '0 0 24px',
+            letterSpacing: '-0.01em',
+            textAlign: 'center',
+            filter: 'drop-shadow(0px 4px 6px rgba(0,0,0,0.5))'
+          }}>
+            Let's build your next big thing
+          </h3>
+          <Link
+            to="/contact"
+            style={{
+              display: 'inline-block',
+              background: 'white',
+              color: 'black',
+              textDecoration: 'none',
+              padding: '16px 32px',
+              borderRadius: '100px',
+              fontSize: '16px',
+              fontWeight: 500,
+              fontFamily: '"Inter", sans-serif',
+              marginBottom: '32px'
+            }}
+          >
+            Start your project
+          </Link>
+          <div style={{ width: '100%', maxWidth: '420px', margin: '0 auto' }}>
+            <img
+              src="/jacobwiththehoodie-removebg-preview.png"
+              alt="Jacob"
+              style={{
+                width: '100%',
+                height: 'auto',
+                display: 'block',
+                maskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 30%, rgba(0,0,0,1) 60%)',
+                WebkitMaskImage: 'linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 30%, rgba(0,0,0,1) 60%)'
+              }}
+            />
+          </div>
         </div>
       </div>
     </footer>
