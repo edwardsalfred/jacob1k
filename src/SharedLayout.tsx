@@ -163,8 +163,6 @@ export function Footer() {
                 <div className="framer-5q20tc-container" style={{width: '100%'}}>
                   <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
                     <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>© 2026 Jacob1K. All rights reserved.</div>
-                    <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
-                    <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
                     <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
                   </div>
                 </div>
@@ -247,8 +245,6 @@ export function Footer() {
                 <div className="framer-5q20tc-container" style={{width: '100%'}}>
                   <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
                     <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>© 2026 Jacob1K. All rights reserved.</div>
-                    <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
-                    <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
                     <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
                   </div>
                 </div>
@@ -331,8 +327,6 @@ export function Footer() {
                 <div className="framer-5q20tc-container" style={{width: '100%'}}>
                   <div style={{display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', width: '100%'}}>
                     <div style={{fontSize: '14px', color: 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', fontStyle: 'normal', fontWeight: '500', letterSpacing: '-0.02em', lineHeight: '1.5em'}}>© 2026 Jacob1K. All rights reserved.</div>
-                    <Link to="/privacy" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Privacy Policy</Link>
-                    <Link to="/terms" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Terms of Service</Link>
                     <a href="https://www.chatbotboy.ai/" target="_blank" rel="noopener noreferrer" style={{fontSize: '14px', color: 'rgba(153,153,153,0.7)', fontWeight: '500', letterSpacing: '-0.02em', textDecoration: 'none'}}>Created by Chatbot Boy AI</a>
                   </div>
                 </div>
