@@ -263,14 +263,14 @@ export default function App() {
           <section className="framer-h77pal" data-framer-name="hero">
             <div className="framer-m9g7ev" data-framer-name="content">
               <div className="ssr-variant hidden-f2wq4l">
-                <div className="framer-1a7qf8j" style={{mask: 'radial-gradient(ellipse 85% 80% at 50% 60%, black 30%, transparent 100%)', WebkitMask: 'radial-gradient(ellipse 85% 80% at 50% 60%, black 30%, transparent 100%)'}}>
+                <div className="framer-1a7qf8j" style={{maskImage: 'linear-gradient(to bottom, transparent 0%, black 5%, black 75%, transparent 100%), linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)', maskComposite: 'intersect', WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 5%, black 75%, transparent 100%), linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)', WebkitMaskComposite: 'source-in'}}>
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
                     <video autoPlay loop muted playsInline preload="auto" src="/jacobhoodiefinalvideo.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover', border: 0, outline: 'none'}} />
                   </div>
                 </div>
               </div>
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
-                <div className="framer-1a7qf8j" style={{mask: 'radial-gradient(ellipse 85% 80% at 50% 60%, black 30%, transparent 100%)', WebkitMask: 'radial-gradient(ellipse 85% 80% at 50% 60%, black 30%, transparent 100%)'}}>
+                <div className="framer-1a7qf8j" style={{maskImage: 'linear-gradient(to bottom, transparent 0%, black 5%, black 75%, transparent 100%), linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)', maskComposite: 'intersect', WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 5%, black 75%, transparent 100%), linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)', WebkitMaskComposite: 'source-in'}}>
                   <div style={{position: 'absolute', borderRadius: 'inherit', top: '0', right: '0', bottom: '0', left: '0'}} data-framer-background-image-wrapper="true">
                     <video autoPlay loop muted playsInline preload="auto" src="/jacobhoodiefinalvideo.mp4" style={{display: 'block', width: '100%', height: '100%', borderRadius: 'inherit', objectPosition: 'center top', objectFit: 'cover', border: 0, outline: 'none'}} />
                   </div>
