@@ -477,13 +477,19 @@ export default function App() {
               <div className="framer-wy2cua" data-framer-name="wrapper">
                 <div className="framer-15i9k0m" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', transform: 'none'}} data-framer-component-type="RichTextContainer">
                   <h3 className="framer-text framer-styles-preset-16e5bus" data-styles-preset="kK_Tgea3Q">
-                    My craft lives where design meets code, merging elegant visuals with solid engineering to deliver web experiences that feel effortless, engaging, and alive on every device.
+                    Hi, I’m Jacob, a professional videographer focused on creating high-quality visuals that make every client look like a star. My goal is simple: to elevate people, events, and moments through clean, cinematic storytelling that feels both authentic and impactful.
                   </h3>
                 </div>
                 <div className="framer-gxr08c" data-framer-name="wrapper">
                   <div className="framer-19pej3y" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', transform: 'none'}} data-framer-component-type="RichTextContainer">
                     <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-alignment': 'left'}}>
-                      I’m Dominicus, a freelance designer-developer who prototypes in Figma and Framer, documents road-maps in Notion, version-controls code on GitHub, and ships lightning-fast sites to Vercel. Each project starts with research: I map user goals, content flow, and performance targets before sketching wireframes. Framer then brings interactions to life, while GitHub Actions run automated tests that safeguard quality. Notion keeps briefs, timelines, and analytics in one shared workspace, ensuring feedback loops stay tight. The outcome is a clean, accessible interface that loads in a blink and keeps evolving through data-driven refinements.
+                      I developed my passion for videography through a desire to capture moments in a way that goes beyond basic footage. I specialize in turning real-life events into polished, engaging visuals that highlight energy, emotion, and detail.
+                      <br /><br />
+                      My work is centered around professionalism, consistency, and attention to detail. From planning and filming to editing and delivery, I prioritize clear communication and a smooth experience for every client. Whether it’s sports, events, promotional content, or personal projects, I aim to produce content that stands out and leaves a lasting impression.
+                      <br /><br />
+                      I am based in Mississippi but open to travel for projects, allowing me to work with clients wherever their vision takes them.
+                      <br /><br />
+                      If you’re looking for videography that combines professionalism with a creative edge, I would be glad to help bring your ideas to life.
                     </p>
                   </div>
                 </div>
