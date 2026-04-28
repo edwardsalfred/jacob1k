@@ -18,7 +18,7 @@ export function Header() {
     const inner = (
       <>
         <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: 0, transform: 'none'}}>
-          <p className="framer-text framer-styles-preset-v5wz0l">{item.label}</p>
+          <p className="framer-text framer-styles-preset-v5wz0l" style={item.to === '/contact' ? {color: '#34f511'} : undefined}>{item.label}</p>
         </div>
         <div className="framer-fxw977" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', opacity: '0'}} />
       </>
@@ -120,7 +120,7 @@ export function Footer() {
                   <div className="framer-1qy5f1n-container">
                     <Link to="/"><img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '76px', width: 'auto', display: 'block'}} /></Link>
                   </div>
-                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                       Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
                     </p>
@@ -175,14 +175,14 @@ export function Footer() {
                 </div>
               </div>
               <div className="framer-1ex5l0u" data-framer-name="wrapper">
-                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                   <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
                     Let's build your next big thing
                   </h3>
                 </div>
                 <div className="framer-xidy4q-container">
                   <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">
-                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>Start your project</p>
                     </div>
                   </Link>
@@ -202,7 +202,7 @@ export function Footer() {
                   <div className="framer-1qy5f1n-container">
                     <Link to="/"><img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '76px', width: 'auto', display: 'block'}} /></Link>
                   </div>
-                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                       Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
                     </p>
@@ -257,14 +257,14 @@ export function Footer() {
                 </div>
               </div>
               <div className="framer-1ex5l0u" data-framer-name="wrapper">
-                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                   <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
                     Let's build your next big thing
                   </h3>
                 </div>
                 <div className="framer-xidy4q-container">
                   <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">
-                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>Start your project</p>
                     </div>
                   </Link>
@@ -284,7 +284,7 @@ export function Footer() {
                   <div className="framer-1qy5f1n-container">
                     <Link to="/"><img src="/latestjacob-removebg-preview.png" alt="Jacob1K" style={{height: '76px', width: 'auto', display: 'block'}} /></Link>
                   </div>
-                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                  <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                     <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL" style={{'--framer-text-alignment': 'left'}}>
                       Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
                     </p>
@@ -339,14 +339,14 @@ export function Footer() {
                 </div>
               </div>
               <div className="framer-1ex5l0u" data-framer-name="wrapper">
-                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                   <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
                     Let's build your next big thing
                   </h3>
                 </div>
                 <div className="framer-xidy4q-container">
                   <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', width: '100%', opacity: '1'}} to="/contact">
-                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>Start your project</p>
                     </div>
                   </Link>

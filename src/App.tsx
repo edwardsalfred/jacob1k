@@ -34,29 +34,29 @@ export default function App() {
       <defs>
         <symbol id="1623269785" viewBox="0 0 24 24">
           {/* Video Editing - video camera */}
-          <polygon points="23 7 16 12 23 17 23 7" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-          <rect x="1" y="5" width="15" height="14" rx="2" ry="2" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <polygon points="23 7 16 12 23 17 23 7" fill="none" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <rect x="1" y="5" width="15" height="14" rx="2" ry="2" fill="none" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
         </symbol>
         <symbol id="1765663906" viewBox="0 0 24 24">
           {/* Music Videos - music notes */}
-          <path d="M9 18V5l12-2v13" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-          <circle cx="6" cy="18" r="3" fill="none" stroke="white" strokeWidth="1.5"/>
-          <circle cx="18" cy="16" r="3" fill="none" stroke="white" strokeWidth="1.5"/>
+          <path d="M9 18V5l12-2v13" fill="none" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="6" cy="18" r="3" fill="none" stroke="#34f511" strokeWidth="1.5"/>
+          <circle cx="18" cy="16" r="3" fill="none" stroke="#34f511" strokeWidth="1.5"/>
         </symbol>
         <symbol id="3076148817" viewBox="0 0 24 24">
           {/* Social Media Marketing - share */}
-          <circle cx="18" cy="5" r="3" fill="none" stroke="white" strokeWidth="1.5"/>
-          <circle cx="6" cy="12" r="3" fill="none" stroke="white" strokeWidth="1.5"/>
-          <circle cx="18" cy="19" r="3" fill="none" stroke="white" strokeWidth="1.5"/>
-          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
-          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+          <circle cx="18" cy="5" r="3" fill="none" stroke="#34f511" strokeWidth="1.5"/>
+          <circle cx="6" cy="12" r="3" fill="none" stroke="#34f511" strokeWidth="1.5"/>
+          <circle cx="18" cy="19" r="3" fill="none" stroke="#34f511" strokeWidth="1.5"/>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round"/>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round"/>
         </symbol>
         <symbol id="800733362" viewBox="0 0 24 24">
           {/* Podcast Editing / Drone Videos - microphone */}
-          <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M19 10v2a7 7 0 0 1-14 0v-2" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-          <line x1="12" y1="19" x2="12" y2="23" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
-          <line x1="8" y1="23" x2="16" y2="23" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+          <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" fill="none" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M19 10v2a7 7 0 0 1-14 0v-2" fill="none" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="12" y1="19" x2="12" y2="23" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round"/>
+          <line x1="8" y1="23" x2="16" y2="23" stroke="#34f511" strokeWidth="1.5" strokeLinecap="round"/>
         </symbol>
       </defs>
     </svg>
@@ -109,7 +109,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-16cts0g-container">
                       {/* $ */}
-                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Home
                         </p>
@@ -123,7 +123,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-66u6hk-container">
                       {/* $ */}
-                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Articles
                         </p>
@@ -137,7 +137,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="#projects" onClick={() => setMenuOpen(false)}>                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} href="#projects" onClick={() => setMenuOpen(false)}>                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
@@ -151,7 +151,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1n16592-container">
                       {/* $ */}
-                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/contact">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1ak38fk framer-1dv31s5" data-framer-name="Default" style={{width: '100%'}} to="/contact">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Get in touch
                         </p>
@@ -199,7 +199,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-16cts0g-container">
                       {/* $ */}
-                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Home
                         </p>
@@ -213,7 +213,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-66u6hk-container">
                       {/* $ */}
-                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/articles">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Articles
                         </p>
@@ -227,7 +227,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1i4yhxm-container">
                       {/* $ */}
-                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="#projects" onClick={() => setMenuOpen(false)}>                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} href="#projects" onClick={() => setMenuOpen(false)}>                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Projects
                         </p>
@@ -241,7 +241,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-1n16592-container">
                       {/* $ */}
-                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/contact">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-iNDTq framer-V2ibY framer-1ak38fk framer-v-1wwxyxw framer-1dv31s5" data-framer-name="Mobile" style={{width: '100%'}} to="/contact">                      <div className="framer-18gnjd5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-v5wz0l" data-styles-preset="HqO5DcEhi">
                           Get in touch
                         </p>
@@ -286,17 +286,17 @@ export default function App() {
                   <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l">
                     <div className="framer-1p5hqfu-container">
                       <div className="framer-KC7jT framer-ujTCN framer-w0owup framer-v-w0owup" data-framer-name="First" data-highlight="true" style={{height: '100%', width: '100%'}}>
-                        <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': '#32F60F'}}>
                             VIDEOGRAPHER.
                           </p>
                         </div>
-                        <div className="framer-1seqat5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1seqat5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
                             WEB DEVELOPER.
                           </p>
                         </div>
-                        <div className="framer-q1wc4f" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-q1wc4f" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
                             WEB STRATEGIST.
                           </p>
@@ -307,17 +307,17 @@ export default function App() {
                   <div className="ssr-variant hidden-f2wq4l hidden-72rtr7">
                     <div className="framer-1p5hqfu-container">
                       <div className="framer-KC7jT framer-ujTCN framer-w0owup framer-v-w0owup" data-framer-name="First" data-highlight="true" style={{height: '100%', width: '100%'}}>
-                        <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': '#32F60F'}}>
                             VIDEOGRAPHER.
                           </p>
                         </div>
-                        <div className="framer-1seqat5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1seqat5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
                             WEB DEVELOPER.
                           </p>
                         </div>
-                        <div className="framer-q1wc4f" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-q1wc4f" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
                             WEB STRATEGIST.
                           </p>
@@ -328,17 +328,17 @@ export default function App() {
                   <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                     <div className="framer-1p5hqfu-container">
                       <div className="framer-KC7jT framer-ujTCN framer-w0owup framer-v-w0owup" data-framer-name="First" data-highlight="true" style={{height: '100%', width: '100%'}}>
-                        <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1o32dkd" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': '#32F60F'}}>
                             VIDEOGRAPHER.
                           </p>
                         </div>
-                        <div className="framer-1seqat5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1seqat5" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
                             WEB DEVELOPER.
                           </p>
                         </div>
-                        <div className="framer-q1wc4f" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-q1wc4f" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-1he25hm" data-styles-preset="Whfp6oF34" style={{'--framer-text-alignment': 'center', '--framer-text-color': 'var(--extracted-r6o4lv, var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)))'}}>
                             WEB STRATEGIST.
                           </p>
@@ -352,7 +352,7 @@ export default function App() {
                   <div className="ssr-variant hidden-f2wq4l">
                     <div className="framer-11j8644-container">
                       {/* $ */}
-                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: '#34f511', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>
                           Get in touch
                         </p>
@@ -364,7 +364,7 @@ export default function App() {
                   <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                     <div className="framer-11j8644-container">
                       {/* $ */}
-                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', width: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: '#34f511', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', width: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>
                           Get in touch
                         </p>
@@ -378,7 +378,7 @@ export default function App() {
                   <div className="ssr-variant hidden-f2wq4l">
                     <div className="framer-nogdgp-container">
                       {/* $ */}
-                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', opacity: '1'}} href="#projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', opacity: '1'}} href="#projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           See my projects
                         </p>
@@ -390,7 +390,7 @@ export default function App() {
                   <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                     <div className="framer-nogdgp-container">
                       {/* $ */}
-                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', width: '100%', opacity: '1'}} href="#projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <a className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-4mrmyx framer-1y6mld" data-framer-name="Alternative" style={{backgroundColor: 'rgba(0, 0, 0, 0)', borderBottomLeftRadius: '0px', borderBottomRightRadius: '0px', borderTopLeftRadius: '0px', borderTopRightRadius: '0px', maxWidth: '100%', width: '100%', opacity: '1'}} href="#projects">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                           See my projects
                         </p>
@@ -405,7 +405,7 @@ export default function App() {
             </div>
           </section>
           <div style={{width: '100%', padding: '40px 0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', background: 'rgb(0, 0, 0)', overflow: 'hidden'}}>
-            <p style={{color: 'rgba(153, 153, 153, 0.6)', fontSize: '11px', letterSpacing: '0.15em', textTransform: 'uppercase', margin: '0', fontFamily: 'inherit'}}>Tools &amp; AI I work with</p>
+            <p style={{color: '#34f511', fontSize: '18px', letterSpacing: '0.15em', textTransform: 'uppercase', margin: '0', fontFamily: 'inherit', fontWeight: '600'}}>Tools &amp; AI I work with</p>
             <div style={{width: '100%', overflow: 'hidden', maskImage: 'linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)', WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%)'}}>
               <div className="marquee-track" style={{display: 'flex', gap: '48px', alignItems: 'center', whiteSpace: 'nowrap', width: 'max-content'}}>
                 <span style={{color: 'rgba(255, 255, 255, 0.4)', fontSize: '20px', fontWeight: '500', fontFamily: 'inherit'}}>Adobe Premiere</span>
@@ -443,14 +443,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l">
                 <div className="framer-mt1gym-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         About
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -460,14 +460,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-mt1gym-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         About
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -501,14 +501,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l">
                 <div className="framer-1hsz4c4-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Services
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -518,14 +518,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l hidden-72rtr7">
                 <div className="framer-1hsz4c4-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Services
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -535,14 +535,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-1hsz4c4-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Services
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -554,18 +554,18 @@ export default function App() {
                   <div className="framer-79def1-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-A4Q1Q framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-A4Q1Q framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#1623269785">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Video Editing
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             High-quality, dynamic video editing tailored to engage your audience and tell your brand story.
                           </p>
@@ -578,18 +578,18 @@ export default function App() {
                   <div className="framer-79def1-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-A4Q1Q framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-A4Q1Q framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#1623269785">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Video Editing
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             High-quality, dynamic video editing tailored to engage your audience and tell your brand story.
                           </p>
@@ -602,18 +602,18 @@ export default function App() {
                   <div className="framer-79def1-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-A4Q1Q framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-A4Q1Q framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#1623269785">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Video Editing
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             High-quality, dynamic video editing tailored to engage your audience and tell your brand story.
                           </p>
@@ -626,18 +626,18 @@ export default function App() {
                   <div className="framer-zl6a7w-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-icXAD framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-icXAD framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#1765663906">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Music Videos
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             Creative and industry-standard music video production and editing to bring your artistic vision to life.
                           </p>
@@ -650,18 +650,18 @@ export default function App() {
                   <div className="framer-zl6a7w-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-icXAD framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-icXAD framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#1765663906">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Music Videos
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             Creative and industry-standard music video production and editing to bring your artistic vision to life.
                           </p>
@@ -674,18 +674,18 @@ export default function App() {
                   <div className="framer-zl6a7w-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-icXAD framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-icXAD framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#1765663906">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Music Videos
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             Creative and industry-standard music video production and editing to bring your artistic vision to life.
                           </p>
@@ -698,18 +698,18 @@ export default function App() {
                   <div className="framer-1gqp7gv-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-qlGUT framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-qlGUT framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#3076148817">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Social Media Marketing Videos
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             Short-form, high-retention video content optimized for TikTok, Instagram Reels, and YouTube Shorts.
                           </p>
@@ -722,18 +722,18 @@ export default function App() {
                   <div className="framer-1gqp7gv-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-qlGUT framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-qlGUT framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#3076148817">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Social Media Marketing Videos
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             Short-form, high-retention video content optimized for TikTok, Instagram Reels, and YouTube Shorts.
                           </p>
@@ -746,18 +746,18 @@ export default function App() {
                   <div className="framer-1gqp7gv-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-qlGUT framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-qlGUT framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#3076148817">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Social Media Marketing Videos
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                             Short-form, high-retention video content optimized for TikTok, Instagram Reels, and YouTube Shorts.
                           </p>
@@ -770,18 +770,18 @@ export default function App() {
                   <div className="framer-13v92e8-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#800733362">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Podcast Editing
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>Professional multi-cam podcast editing, audio cleanup, and clipping for promotional use.</p>
                         </div>
                       </div>
@@ -792,18 +792,18 @@ export default function App() {
                   <div className="framer-13v92e8-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#800733362">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Podcast Editing
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>Professional multi-cam podcast editing, audio cleanup, and clipping for promotional use.</p>
                         </div>
                       </div>
@@ -814,18 +814,18 @@ export default function App() {
                   <div className="framer-13v92e8-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#800733362">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Podcast Editing
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>Professional multi-cam podcast editing, audio cleanup, and clipping for promotional use.</p>
                         </div>
                       </div>
@@ -836,18 +836,18 @@ export default function App() {
                   <div className="framer-13v92e8-container">
                     <div className="framer-R3Cyr framer-Cmb46 framer-z8xZJ framer-7jkgu7 framer-v-7jkgu7" data-framer-name="Default" style={{backgroundColor: 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', boxShadow: 'inset 0px 1px 1px -1px var(--token-1b03a498-4ccd-48f7-89b0-2f6f29aef1f1, rgb(153, 153, 153)), inset 0px -3px 2px -1px var(--token-4b2257b1-6059-4332-a819-251f434b173b, rgb(0, 0, 0))', height: '100%', width: '100%'}}>
                       <div className="framer-136d8os" data-border="true" data-framer-name="button" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '1px', '--border-right-width': '1px', '--border-style': 'solid', '--border-top-width': '1px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px', borderTopLeftRadius: '50px', borderTopRightRadius: '50px'}}>
-                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
+                        <svg className="framer-E8Br1 framer-1ppqmmi" role="presentation" style={{'--1m6trwb': '0', '--21h8s6': '#34f511', '--pgex8v': '1.5'}} viewBox="0 0 24 24">
                           <use href="#800733362">
                           </use>
                         </svg>
                       </div>
                       <div className="framer-1c9eaee" data-framer-name="wrapper">
-                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1qfureh" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                             Drone Videos
                           </h3>
                         </div>
-                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                        <div className="framer-1ijr2sb" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                           <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>Breathtaking aerial cinematography that captures your projects, events, or real estate from an unforgettable perspective.</p>
                         </div>
                       </div>
@@ -865,14 +865,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l">
                 <div className="framer-cn3xz9-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{maxWidth: '100%', width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Testimonials
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -882,14 +882,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l hidden-72rtr7">
                 <div className="framer-cn3xz9-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{maxWidth: '100%', width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Testimonials
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -899,14 +899,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-cn3xz9-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{maxWidth: '100%', width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Testimonials
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -948,12 +948,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       James Reed
                                     </p>
@@ -988,12 +988,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Sarah Lopez
                                     </p>
@@ -1028,12 +1028,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       David Kim
                                     </p>
@@ -1068,12 +1068,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Olivia Grant
                                     </p>
@@ -1109,12 +1109,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       James Reed
                                     </p>
@@ -1149,12 +1149,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Sarah Lopez
                                     </p>
@@ -1189,12 +1189,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       David Kim
                                     </p>
@@ -1229,12 +1229,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Olivia Grant
                                     </p>
@@ -1277,12 +1277,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Mark Patel
                                     </p>
@@ -1317,12 +1317,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Emily Chen
                                     </p>
@@ -1357,12 +1357,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Lucas Meyer
                                     </p>
@@ -1397,12 +1397,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Hannah Brooks
                                     </p>
@@ -1438,12 +1438,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Mark Patel
                                     </p>
@@ -1478,12 +1478,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Emily Chen
                                     </p>
@@ -1518,12 +1518,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Lucas Meyer
                                     </p>
@@ -1558,12 +1558,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Hannah Brooks
                                     </p>
@@ -1612,12 +1612,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       James Reed
                                     </p>
@@ -1652,12 +1652,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Sarah Lopez
                                     </p>
@@ -1692,12 +1692,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       David Kim
                                     </p>
@@ -1732,12 +1732,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Olivia Grant
                                     </p>
@@ -1773,12 +1773,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       James Reed
                                     </p>
@@ -1813,12 +1813,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Sarah Lopez
                                     </p>
@@ -1853,12 +1853,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       David Kim
                                     </p>
@@ -1893,12 +1893,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Olivia Grant
                                     </p>
@@ -1941,12 +1941,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Mark Patel
                                     </p>
@@ -1981,12 +1981,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Emily Chen
                                     </p>
@@ -2021,12 +2021,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Lucas Meyer
                                     </p>
@@ -2061,12 +2061,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Hannah Brooks
                                     </p>
@@ -2102,12 +2102,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Mark Patel
                                     </p>
@@ -2142,12 +2142,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Emily Chen
                                     </p>
@@ -2182,12 +2182,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Lucas Meyer
                                     </p>
@@ -2222,12 +2222,12 @@ export default function App() {
                                   </svg>
                                 </div>
                                 <div className="framer-15rysuf" data-framer-name="wrapper">
-                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                       Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                     </p>
                                   </div>
-                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                  <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                     <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                       Hannah Brooks
                                     </p>
@@ -2277,12 +2277,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         James Reed
                                       </p>
@@ -2317,12 +2317,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Sarah Lopez
                                       </p>
@@ -2357,12 +2357,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         David Kim
                                       </p>
@@ -2397,12 +2397,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Olivia Grant
                                       </p>
@@ -2437,12 +2437,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Mark Patel
                                       </p>
@@ -2477,12 +2477,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Emily Chen
                                       </p>
@@ -2517,12 +2517,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Lucas Meyer
                                       </p>
@@ -2557,12 +2557,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Hannah Brooks
                                       </p>
@@ -2597,12 +2597,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         James Reed
                                       </p>
@@ -2637,12 +2637,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Sarah Lopez
                                       </p>
@@ -2677,12 +2677,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         David Kim
                                       </p>
@@ -2717,12 +2717,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Olivia Grant
                                       </p>
@@ -2757,12 +2757,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Mark Patel
                                       </p>
@@ -2797,12 +2797,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Emily Chen
                                       </p>
@@ -2837,12 +2837,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Lucas Meyer
                                       </p>
@@ -2877,12 +2877,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Hannah Brooks
                                       </p>
@@ -2917,12 +2917,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         James Reed
                                       </p>
@@ -2957,12 +2957,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Sarah Lopez
                                       </p>
@@ -2997,12 +2997,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         David Kim
                                       </p>
@@ -3037,12 +3037,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Olivia Grant
                                       </p>
@@ -3077,12 +3077,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Mark Patel
                                       </p>
@@ -3117,12 +3117,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Emily Chen
                                       </p>
@@ -3157,12 +3157,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Lucas Meyer
                                       </p>
@@ -3197,12 +3197,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Hannah Brooks
                                       </p>
@@ -3237,12 +3237,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Transformed our outdated site into a sleek, responsive hub that delights visitors and drives more qualified leads daily.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         James Reed
                                       </p>
@@ -3277,12 +3277,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clean, intuitive layouts dramatically raised conversions and kept navigation entirely effortless for satisfied visitors.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Sarah Lopez
                                       </p>
@@ -3317,12 +3317,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Responsive build slashed load times, boosting engagement across devices and elevating our brand&#39;s credibility instantly.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         David Kim
                                       </p>
@@ -3357,12 +3357,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Elegant motion effects refine each scroll, encouraging visitors to explore content a bit deeper and stay engaged longer.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Olivia Grant
                                       </p>
@@ -3397,12 +3397,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Seamless backend integration saved hours, ensured safe data flow, enabled scalability and delivered daily peace of mind.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Mark Patel
                                       </p>
@@ -3437,12 +3437,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         CMS setup lets you update text code-free; edits are speedy as new posts publish in minutes, keeping the website current.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Emily Chen
                                       </p>
@@ -3477,12 +3477,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Clear communication kept the project on schedule, maintaining expectations and preventing surprises during delivery now.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Lucas Meyer
                                       </p>
@@ -3517,12 +3517,12 @@ export default function App() {
                                     </svg>
                                   </div>
                                   <div className="framer-15rysuf" data-framer-name="wrapper">
-                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1vlw7yy" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                                         Post-launch support stays prompt, keeping the site secure, optimized and running smoothly for every visitor at any hour.
                                       </p>
                                     </div>
-                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                                    <div className="framer-1w3e91" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                                       <p className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                         Hannah Brooks
                                       </p>
@@ -3556,14 +3556,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l">
                 <div className="framer-jyt9k9-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         FAQ
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -3573,14 +3573,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l hidden-72rtr7">
                 <div className="framer-jyt9k9-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         FAQ
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -3590,14 +3590,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-jyt9k9-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-w5y01r" data-framer-name="No Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         FAQ
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -3610,13 +3610,13 @@ export default function App() {
                     <div className="framer-9v8uhu-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 1 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 1 ? null : 1)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               001.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How much do you charge?
                               </h3>
@@ -3629,7 +3629,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Pricing varies depending on the scope of your project, factors like shoot length, location, and deliverables all play a role. Reach out for a custom quote and I'll get back to you within 24 hours.
                               </p>
@@ -3641,13 +3641,13 @@ export default function App() {
                     <div className="framer-1y3achi-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 2 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 2 ? null : 2)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               002.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 Do you travel?
                               </h3>
@@ -3660,7 +3660,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Absolutely! I'm available for travel both locally and out of state. Travel fees apply for locations outside of Hattiesburg, MS and will be included in your project quote upfront. No surprises.
                               </p>
@@ -3672,13 +3672,13 @@ export default function App() {
                     <div className="framer-1bs6tnd-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 3 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 3 ? null : 3)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               003.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How can I book?
                               </h3>
@@ -3691,7 +3691,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Booking is easy! You can submit a booking request directly on my website, email me at Jacob@jacob1k.com, or send me a DM on Instagram, TikTok, or Facebook. I recommend reaching out at least 1 week in advance to lock in your date.
                               </p>
@@ -3703,13 +3703,13 @@ export default function App() {
                     <div className="framer-is40ls-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 4 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 4 ? null : 4)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               004.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How long does it take to receive the final video?
                               </h3>
@@ -3722,7 +3722,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Turnaround time is typically 1–2 weeks from your shoot date. Rush delivery may be available depending on my current schedule. Just ask!
                               </p>
@@ -3734,13 +3734,13 @@ export default function App() {
                     <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 5 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 5 ? null : 5)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               005.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 Do you require a deposit?
                               </h3>
@@ -3753,7 +3753,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Yes, a deposit is required to officially secure your booking. This ensures your date is held exclusively for you. The remaining balance is due on the shoot day.
                               </p>
@@ -3766,13 +3766,13 @@ export default function App() {
                     <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               006.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How can I officially secure my booking?
                               </h3>
@@ -3785,7 +3785,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 To officially secure your booking, a deposit must be paid. I accept Cash App, Apple Pay, and cash. Once the deposit is received, your date is held exclusively for you.
                               </p>
@@ -3803,13 +3803,13 @@ export default function App() {
                     <div className="framer-9v8uhu-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 1 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 1 ? null : 1)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               001.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How much do you charge?
                               </h3>
@@ -3822,7 +3822,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Pricing varies depending on the scope of your project, factors like shoot length, location, and deliverables all play a role. Reach out for a custom quote and I'll get back to you within 24 hours.
                               </p>
@@ -3834,13 +3834,13 @@ export default function App() {
                     <div className="framer-1y3achi-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 2 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 2 ? null : 2)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               002.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 Do you travel?
                               </h3>
@@ -3853,7 +3853,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Absolutely! I'm available for travel both locally and out of state. Travel fees apply for locations outside of Hattiesburg, MS and will be included in your project quote upfront. No surprises.
                               </p>
@@ -3865,13 +3865,13 @@ export default function App() {
                     <div className="framer-1bs6tnd-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 3 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 3 ? null : 3)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               003.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How can I book?
                               </h3>
@@ -3884,7 +3884,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Booking is easy! You can submit a booking request directly on my website, email me at Jacob@jacob1k.com, or send me a DM on Instagram, TikTok, or Facebook. I recommend reaching out at least 1 week in advance to lock in your date.
                               </p>
@@ -3896,13 +3896,13 @@ export default function App() {
                     <div className="framer-is40ls-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 4 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 4 ? null : 4)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               004.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How long does it take to receive the final video?
                               </h3>
@@ -3915,7 +3915,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Turnaround time is typically 1–2 weeks from your shoot date. Rush delivery may be available depending on my current schedule. Just ask!
                               </p>
@@ -3927,13 +3927,13 @@ export default function App() {
                     <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 5 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 5 ? null : 5)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               005.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 Do you require a deposit?
                               </h3>
@@ -3946,7 +3946,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Yes, a deposit is required to officially secure your booking. This ensures your date is held exclusively for you. The remaining balance is due on the shoot day.
                               </p>
@@ -3959,13 +3959,13 @@ export default function App() {
                     <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-utxo0w' : 'framer-v-d33ej7'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Desktop Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               006.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How can I officially secure my booking?
                               </h3>
@@ -3978,7 +3978,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 To officially secure your booking, a deposit must be paid. I accept Cash App, Apple Pay, and cash. Once the deposit is received, your date is held exclusively for you.
                               </p>
@@ -3996,13 +3996,13 @@ export default function App() {
                     <div className="framer-9v8uhu-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 1 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 1 ? null : 1)} data-border="true" data-framer-name="Mobile Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL">
                               001.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How much do you charge?
                               </h3>
@@ -4015,7 +4015,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Pricing varies depending on the scope of your project, factors like shoot length, location, and deliverables all play a role. Reach out for a custom quote and I'll get back to you within 24 hours.
                               </p>
@@ -4027,13 +4027,13 @@ export default function App() {
                     <div className="framer-1y3achi-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 2 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 2 ? null : 2)} data-border="true" data-framer-name="Mobile Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL">
                               002.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 Do you travel?
                               </h3>
@@ -4046,7 +4046,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Absolutely! I'm available for travel both locally and out of state. Travel fees apply for locations outside of Hattiesburg, MS and will be included in your project quote upfront. No surprises.
                               </p>
@@ -4058,13 +4058,13 @@ export default function App() {
                     <div className="framer-1bs6tnd-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 3 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 3 ? null : 3)} data-border="true" data-framer-name="Mobile Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL">
                               003.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How can I book?
                               </h3>
@@ -4077,7 +4077,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Booking is easy! You can submit a booking request directly on my website, email me at Jacob@jacob1k.com, or send me a DM on Instagram, TikTok, or Facebook. I recommend reaching out at least 1 week in advance to lock in your date.
                               </p>
@@ -4089,13 +4089,13 @@ export default function App() {
                     <div className="framer-is40ls-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 4 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 4 ? null : 4)} data-border="true" data-framer-name="Mobile Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL">
                               004.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How long does it take to receive the final video?
                               </h3>
@@ -4108,7 +4108,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Turnaround time is typically 1–2 weeks from your shoot date. Rush delivery may be available depending on my current schedule. Just ask!
                               </p>
@@ -4120,13 +4120,13 @@ export default function App() {
                     <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 5 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 5 ? null : 5)} data-border="true" data-framer-name="Mobile Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL">
                               005.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 Do you require a deposit?
                               </h3>
@@ -4139,7 +4139,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 Yes, a deposit is required to officially secure your booking. This ensures your date is held exclusively for you. The remaining balance is due on the shoot day.
                               </p>
@@ -4152,13 +4152,13 @@ export default function App() {
                     <div className="framer-gjo1bc-container">
                       <div className={`framer-iCqDH framer-pec35 framer-3HVtM framer-Cmb46 framer-d33ej7 ${openFaq === 6 ? 'framer-v-phl8dc' : 'framer-v-1692ibg'}`} onClick={() => setOpenFaq(openFaq === 6 ? null : 6)} data-border="true" data-framer-name="Mobile Inactive" data-highlight="true" style={{'--border-bottom-width': '1px', '--border-color': 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', '--border-left-width': '0px', '--border-right-width': '0px', '--border-style': 'solid', '--border-top-width': '0px', width: '100%'}} tabindex="0">
                         <div className="framer-8i65d2" data-framer-name="wrapper">
-                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-gvbjkm" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255)))'}}>
                               006.
                             </p>
                           </div>
                           <div className="framer-g1ccu5" data-framer-name="wrapper">
-                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-1gi4s88" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                                 How can I officially secure my booking?
                               </h3>
@@ -4171,7 +4171,7 @@ export default function App() {
                         </div>
                         <div className="framer-1cd45jo" data-framer-name="wrapper">
                           <div className="framer-19zvow4" data-framer-name="wrapper">
-                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                            <div className="framer-40swjj" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                               <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_">
                                 To officially secure your booking, a deposit must be paid. I accept Cash App, Apple Pay, and cash. Once the deposit is received, your date is held exclusively for you.
                               </p>
@@ -4191,14 +4191,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-f2wq4l">
                 <div className="framer-1yj65yf-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-6403zz" data-framer-name="Yes Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Articles
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -4216,14 +4216,14 @@ export default function App() {
               <div className="ssr-variant hidden-f2wq4l hidden-72rtr7">
                 <div className="framer-1yj65yf-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-6403zz" data-framer-name="Yes Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Articles
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -4241,14 +4241,14 @@ export default function App() {
               <div className="ssr-variant hidden-1dy4dcp hidden-72rtr7">
                 <div className="framer-1yj65yf-container">
                   <div className="framer-Pb7lB framer-Bdswg framer-pec35 framer-u9Eok framer-6403zz framer-v-6403zz" data-framer-name="Yes Link" style={{width: '100%'}}>
-                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1642qx4" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h2 className="framer-text framer-styles-preset-1w65hox" data-styles-preset="RUd4XrY7o">
                         Articles
                       </h2>
                     </div>
                     <div className="framer-183hu95-container">
                       <div className="framer-cFLQO framer-ku1g8u framer-v-ku1g8u" data-framer-name="Initial" data-highlight="true" style={{backgroundColor: 'var(--token-dfbbe9a1-b097-4733-a9b0-0062d46a88fc, rgba(153, 153, 153, 0.2))', height: '100%', width: '100%'}}>
-                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))'}}>
+                        <div className="framer-1yshcpq" data-framer-name="vector" style={{backgroundColor: '#34f511'}}>
                         </div>
                       </div>
                     </div>
@@ -4282,7 +4282,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Overdone Videography Trends You Should Ditch in 2026
                             </h3>
@@ -4307,7 +4307,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Overdone Videography Trends You Should Ditch in 2026
                             </h3>
@@ -4332,7 +4332,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Overdone Videography Trends You Should Ditch in 2026
                             </h3>
@@ -4361,7 +4361,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Getting Into Videography in 2026 – What You Really Need
                             </h3>
@@ -4386,7 +4386,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Getting Into Videography in 2026 – What You Really Need
                             </h3>
@@ -4411,7 +4411,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Getting Into Videography in 2026 – What You Really Need
                             </h3>
@@ -4440,7 +4440,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Surviving as a Videographer in 2026’s Crowded Market
                             </h3>
@@ -4465,7 +4465,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Surviving as a Videographer in 2026’s Crowded Market
                             </h3>
@@ -4490,7 +4490,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               Surviving as a Videographer in 2026’s Crowded Market
                             </h3>
@@ -4519,7 +4519,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               How to Shoot Modern Mockumentary-Style Videos
                             </h3>
@@ -4544,7 +4544,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               How to Shoot Modern Mockumentary-Style Videos
                             </h3>
@@ -4569,7 +4569,7 @@ export default function App() {
                       </div>
                       <div className="framer-35rypx" data-framer-name="wrapper" style={{borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', borderTopLeftRadius: '12px', borderTopRightRadius: '12px'}}>
                         <div className="framer-t1tuoh" data-framer-name="wrapper">
-                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                          <div className="framer-1gztgac" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                             <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE">
                               How to Shoot Modern Mockumentary-Style Videos
                             </h3>
@@ -4604,7 +4604,7 @@ export default function App() {
 </a>
                         {/* /$ */}
                       </div>
-                      <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                           Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
                         </p>
@@ -4675,7 +4675,7 @@ export default function App() {
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
-                    <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
                         Let’s build your next big thing
                       </h3>
@@ -4683,7 +4683,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-xidy4q-container">
                       {/* $ */}
-                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: '#34f511', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>
                           Start your project
                         </p>
@@ -4709,7 +4709,7 @@ export default function App() {
 </a>
                         {/* /$ */}
                       </div>
-                      <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
                           Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
                         </p>
@@ -4780,7 +4780,7 @@ export default function App() {
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
-                    <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
                         Let’s build your next big thing
                       </h3>
@@ -4788,7 +4788,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-xidy4q-container">
                       {/* $ */}
-                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: '#34f511', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>
                           Start your project
                         </p>
@@ -4814,7 +4814,7 @@ export default function App() {
 </a>
                         {/* /$ */}
                       </div>
-                      <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL" style={{'--framer-text-alignment': 'left'}}>
                           Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
                         </p>
@@ -4885,7 +4885,7 @@ export default function App() {
                     </div>
                   </div>
                   <div className="framer-1ex5l0u" data-framer-name="wrapper">
-                    <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                    <div className="framer-1bf9gec" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                       <h3 className="framer-text framer-styles-preset-mgnp7g" data-styles-preset="DorUiGrSE" style={{'--framer-text-alignment': 'center'}}>
                         Let’s build your next big thing
                       </h3>
@@ -4893,7 +4893,7 @@ export default function App() {
                     {/* $ */}
                     <div className="framer-xidy4q-container">
                       {/* $ */}
-                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: 'var(--token-da6cfa3b-4541-4c0f-899e-86c3f3559e26, rgb(255, 255, 255))', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', width: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': 'rgb(0, 153, 255)', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
+                      <Link className="framer-nBLMP framer-pec35 framer-qq3djw framer-v-qq3djw framer-1y6mld" data-framer-name="Default" style={{backgroundColor: '#34f511', borderBottomLeftRadius: '2500px', borderBottomRightRadius: '2500px', borderTopLeftRadius: '2500px', borderTopRightRadius: '2500px', maxWidth: '100%', width: '100%', opacity: '1'}} to="/contact">                      <div className="framer-whs66b" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--extracted-r6o4lv': 'var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17))', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                         <p className="framer-text framer-styles-preset-i3ioj7" data-styles-preset="e4XI1gL8_" style={{'--framer-text-color': 'var(--extracted-r6o4lv, var(--token-884dfe64-9412-4f85-9b9d-e737ee92d939, rgb(17, 17, 17)))'}}>
                           Start your project
                         </p>

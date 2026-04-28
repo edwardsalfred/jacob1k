@@ -252,3 +252,12 @@
   gap: 32px !important;
 }
 
+/* Brand green on section titles */
+section[data-framer-name="about"] h2.framer-styles-preset-1w65hox,
+section[data-framer-name="services"] h2.framer-styles-preset-1w65hox,
+section[data-framer-name="testimonials"] h2.framer-styles-preset-1w65hox,
+section[data-framer-name="articles"] h2.framer-styles-preset-1w65hox,
+section[data-framer-name="faq"] h2.framer-styles-preset-1w65hox {
+  color: #34f511 !important;
+}
+

@@ -10,7 +10,7 @@
 .section-label {
   font-family: "Instrument Serif", serif;
   font-size: 40px;
-  color: var(--text, #efefef);
+  color: #34f511;
   margin-bottom: 48px;
   display: flex;
   align-items: center;
