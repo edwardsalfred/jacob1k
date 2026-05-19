@@ -9,6 +9,7 @@ interface Video {
   duration: string;
   platform?: 'youtube' | 'vimeo' | 'direct' | 'instagram';
   thumbnail?: string;
+  src?: string;
 }
 
 const vids: Video[] = [
@@ -18,8 +19,8 @@ const vids: Video[] = [
   { id: 'wM5whcn5P8I', title: 'Harmonix', type: 'Documentary', category: 'documentary', duration: '1:30' },
   { id: 'knHWet8ylNs', title: 'Lumina', type: 'Reel', category: 'reel', duration: '0:15' },
   { id: 'jAFnOSPZcSo', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30' },
-  { id: 'DRAS4whCWQh', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30', platform: 'instagram' },
-  { id: 'C0FNvxGANJC', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30', platform: 'instagram' },
+  { id: 'DRAS4whCWQh', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30', platform: 'direct', src: '/videos/reel-DRAS4whCWQh.mp4', thumbnail: '/videos/reel-DRAS4whCWQh.jpg' },
+  { id: 'C0FNvxGANJC', title: 'Reel', type: 'Reel', category: 'reel', duration: '0:30', platform: 'direct', src: '/videos/reel-C0FNvxGANJC.mp4', thumbnail: '/videos/reel-C0FNvxGANJC.jpg' },
 ];
 
 const PortfolioWork: React.FC = () => {
@@ -32,10 +33,6 @@ const PortfolioWork: React.FC = () => {
   const filteredVids = vids.filter(v => filter === 'all' || v.category === filter);
 
   const openLightbox = (v: Video) => {
-    if (v.platform === 'instagram') {
-      window.open(`https://www.instagram.com/reel/${v.id}/`, '_blank', 'noopener,noreferrer');
-      return;
-    }
     setActiveVid(v);
     setIsLightboxActive(true);
     document.body.style.overflow = 'hidden';
@@ -73,27 +70,17 @@ const PortfolioWork: React.FC = () => {
             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(v); } }}
           >
             <div className="video-thumb">
-              {v.platform === 'instagram' ? (
-                <div className="instagram-thumb-placeholder">
-                  <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <circle cx="12" cy="12" r="4"></circle>
-                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
-                  </svg>
-                </div>
-              ) : (
-                <img
-                  src={v.thumbnail || `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
-                  alt={v.title}
-                  loading="lazy"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    if (!target.src.includes('0.jpg')) {
-                      target.src = `https://i.ytimg.com/vi/${v.id}/0.jpg`;
-                    }
-                  }}
-                />
-              )}
+              <img
+                src={v.thumbnail || `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+                alt={v.title}
+                loading="lazy"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  if (v.platform !== 'direct' && !target.src.includes('0.jpg')) {
+                    target.src = `https://i.ytimg.com/vi/${v.id}/0.jpg`;
+                  }
+                }}
+              />
               <div className="play-overlay">
                 <div className="play-icon">
                   <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -112,13 +99,25 @@ const PortfolioWork: React.FC = () => {
           <div className="lightbox-content" onClick={e => e.stopPropagation()}>
             <button className="close-btn" onClick={closeLightbox} aria-label="Close Lightbox">&times;</button>
             <div className="video-wrapper">
-              <iframe
-                src={`https://www.youtube.com/embed/${activeVid.id}?autoplay=1&rel=0`}
-                title={activeVid.title}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              {activeVid.platform === 'direct' && activeVid.src ? (
+                <video
+                  src={activeVid.src}
+                  poster={activeVid.thumbnail}
+                  title={activeVid.title}
+                  controls
+                  autoPlay
+                  playsInline
+                  style={{ width: '100%', height: '100%', objectFit: 'contain', background: '#000' }}
+                />
+              ) : (
+                <iframe
+                  src={`https://www.youtube.com/embed/${activeVid.id}?autoplay=1&rel=0`}
+                  title={activeVid.title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              )}
             </div>
           </div>
         )}
