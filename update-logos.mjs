@@ -3,7 +3,7 @@ import fs from 'fs';
 const tsxPath = './src/App.tsx';
 let tsx = fs.readFileSync(tsxPath, 'utf8');
 
-const newLogos = ['Adobe Premiere', 'CapCut', 'HeyGen', 'Claude', 'Nano Banana', 'VEO 3.1', 'Kling'];
+const newLogos = ['Adobe Premiere', 'CapCut', 'HeyGen', 'Claude Code', 'Nano Banana', 'VEO 3.1', 'Kling'];
 
 const buildLis = () => {
     // Generate styled text items that look like a logo marquee

@@ -122,7 +122,7 @@ export function Footer() {
                   </div>
                   <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
-                      Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
+                      Transforming creative visions into cinematic visual experiences that captivate audiences, elevate brands, and turn moments into powerful stories through high-quality videography and storytelling.
                     </p>
                   </div>
                 </div>
@@ -204,7 +204,7 @@ export function Footer() {
                   </div>
                   <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                     <p className="framer-text framer-styles-preset-h71jo3" data-styles-preset="yWt0Fhoeu" style={{'--framer-text-alignment': 'left'}}>
-                      Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
+                      Transforming creative visions into cinematic visual experiences that captivate audiences, elevate brands, and turn moments into powerful stories through high-quality videography and storytelling.
                     </p>
                   </div>
                 </div>
@@ -286,7 +286,7 @@ export function Footer() {
                   </div>
                   <div className="framer-b53igs" style={{outline: 'none', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', flexShrink: '0', '--framer-link-text-color': '#34f511', '--framer-link-text-decoration': 'underline', transform: 'none'}} data-framer-component-type="RichTextContainer">
                     <p className="framer-text framer-styles-preset-1rlcj7" data-styles-preset="XBfR5uDtL" style={{'--framer-text-alignment': 'left'}}>
-                      Transforming bold concepts into intuitive, high impact digital experiences that captivate users, amplify brands, and convert exploration into growth.
+                      Transforming creative visions into cinematic visual experiences that captivate audiences, elevate brands, and turn moments into powerful stories through high-quality videography and storytelling.
                     </p>
                   </div>
                 </div>
